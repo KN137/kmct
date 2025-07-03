@@ -1,0 +1,35 @@
+# Ignore environment config
+.env
+
+# Composer dependencies
+/vendor/
+composer.lock
+composer.phar
+
+# PHPStorm / JetBrains IDE
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs and cache
+*.log
+/cache/
+/tmp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup and temp files
+*.bak
+*.tmp
+*.swp
+
+# PHPUnit
+.phpunit.result.cache
+
+# User uploads (optional)
+/uploads/
