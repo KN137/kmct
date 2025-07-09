@@ -10,7 +10,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = htmlspecialchars(trim($_POST["subject"]));
     $message = htmlspecialchars(trim($_POST["message"]));
     
-    if ($email && !empty($subject) && !empty($message)) {
+    //if ($email && !empty($subject) && !empty($message))
+    
+    if (true) {
         $mail = new PHPMailer(true);
 
         try {
@@ -43,20 +45,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <?php if (!empty($messageSent)): ?>
     <p><?php echo $messageSent; ?></p>
+    <p><?php echo $email; ?></p>
+    <p><?php echo $subject; ?></p>
+    <p><?php echo $message; ?></p>
 <?php endif; ?>
 
-<form action="sendmail.php" method="POST">
-    <div>
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" required>
-    </div>
-    <div>
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" required>
-    </div>
-    <div>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-    </div>
-    <button type="submit">Send Message</button>
-</form>
