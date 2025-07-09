@@ -122,7 +122,7 @@
                         <h4 class="mb-3">Email Address</h4>
                         <p class="mb-2">info@kmtelecomsa.co.za</p>
                         <p class="mb-4">support@kmtelecomsa.co.za</p>
-                        <a class="btn btn-primary px-4" href="sendmail.php">Email Now <i class="fa fa-arrow-right ms-2"></i></a>
+                        <a class="btn btn-primary px-4" href="mailto:info@kmtelecomsa.co.za">Email Now <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
