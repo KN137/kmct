@@ -54,7 +54,7 @@
             <div class="col-lg-6 text-end">
                 <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
                     <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
-                    <span class="fs-5 fw-bold">010 010 7470</span>
+                    <a href="tel:0100107470" class="fs-5 fw-bold text-white">010 010 7470</a>
                 </div>
             </div>
         </div>
@@ -140,7 +140,9 @@
                                 </div>
                                 <div class="ms-3">
                                     <p class="mb-2">Email us</p>
-                                    <h5 class="mb-0">info@kmtelecomsa.co.za</h5>
+                                    <h5 class="mb-0">
+                                        <a href="mailto:info@kmtelecomsa.co.za" class="text-dark">info@kmtelecomsa.co.za</a>
+                                    </h5>
                                 </div>
                             </div>
                         </div>
