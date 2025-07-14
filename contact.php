@@ -220,9 +220,20 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Our Office</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>263 Oak Ave, Randburg, Gauteng</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>010 010 7470</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@kmtelecomsa.com</p>
+                    <p class="mb-2">
+    <i class="fa fa-map-marker-alt me-3"></i>
+    <a href="https://www.google.com/maps?q=263+Oak+Ave,+Randburg,+Gauteng" target="_blank" class="text-white">
+        263 Oak Ave, Randburg, Gauteng
+    </a>
+</p>
+                    <p class="mb-2">
+    <i class="fa fa-phone-alt me-3"></i>
+    <a href="tel:0100107470" class="text-white">010 010 7470</a>
+</p>
+                    <p class="mb-2">
+    <i class="fa fa-envelope me-3"></i>
+    <a href="mailto:info@kmtelecomsa.com" class="text-white">info@kmtelecomsa.com</a>
+</p>
                     <div class="d-flex pt-3">
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
