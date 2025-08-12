@@ -30,6 +30,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+<?php include 'quote-modal.php'; ?>
 
 <body>
     <!-- Spinner Start -->
@@ -77,7 +78,7 @@
                 <a href="service.php" class="nav-item nav-link">Services</a>
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+            <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#quoteModal">Get A Quote</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -96,19 +97,19 @@
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Stay connected with our Fast and Reliable Internet</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">We offer Fiber, LTE & 5G CONNECTIONS.</h1>
                                     <a href="extra.html" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
-                                <button onclick="loadExtraContent()"></button>
-<div id="extra-content" style="display: none;"></div>
+                                    <button onclick="loadExtraContent()"></button>
+                                    <div id="extra-content" style="display: none;"></div>
 
-<script>
-function loadExtraContent() {
-    fetch('extra.html')
-        .then(response => response.text())
-        .then(html => {
-            document.getElementById('extra-content').innerHTML = html;
-            document.getElementById('extra-content').style.display = 'block';
-        });
-}
-</script>
+                                    <script>
+                                        function loadExtraContent() {
+                                            fetch('extra.html')
+                                                .then(response => response.text())
+                                                .then(html => {
+                                                    document.getElementById('extra-content').innerHTML = html;
+                                                    document.getElementById('extra-content').style.display = 'block';
+                                                });
+                                        }
+                                    </script>
                                 </div>
                             </div>
                         </div>
@@ -189,7 +190,7 @@ function loadExtraContent() {
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
                             <img class="img-fluid" src="img/kmslide_9.jpg">
                         </div>
-                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
+                        <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
                             <img class="img-fluid" src="img/kmslide_10.png">
                         </div>
                     </div>
@@ -226,76 +227,76 @@ function loadExtraContent() {
                                     </h5>
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
-     
- <!-- Partners Start -->
-<div class="container-fluid px-0 mb-5">
-    <div id="auto-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" src="img/kmslide_1.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 style="font-size: 4rem; color: white">CHOOSING KM CONNECT TELECOMS AS YOUR VoIP SERVICE PROVIDER?</h5>
-                    <p style="font-size: 50px;">
-                    We offer Wireless LTE, fixed line, Fibre and Point to Point solutions, highly-secure platforms with our network as a foundation, 
-                    and end-to-end management that uniquely positions us to implement reliable data or communications networks to drive the growth and competitiveness of your business.</p>
- </p> 
-<p style="font-size: 50px;">
-    By managing these powerful networks, KM Connect Telecoms delivers your business strategy and provides 
-    tailor-made solutions to best suit your business requirements, reducing costs and improving productivity.
-</p>
-<!-- <div class="position-relative">
+
+    <!-- Partners Start -->
+    <div class="container-fluid px-0 mb-5">
+        <div id="auto-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/kmslide_1.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="font-size: 4rem; color: white">CHOOSING KM CONNECT TELECOMS AS YOUR VoIP SERVICE PROVIDER?</h5>
+                        <p style="font-size: 50px;">
+                            We offer Wireless LTE, fixed line, Fibre and Point to Point solutions, highly-secure platforms with our network as a foundation,
+                            and end-to-end management that uniquely positions us to implement reliable data or communications networks to drive the growth and competitiveness of your business.</p>
+                        </p>
+                        <p style="font-size: 50px;">
+                            By managing these powerful networks, KM Connect Telecoms delivers your business strategy and provides
+                            tailor-made solutions to best suit your business requirements, reducing costs and improving productivity.
+                        </p>
+                        <!-- <div class="position-relative">
     <img src="img/kmslide_1.jpg" class="w-100" alt="Background Image">
     <img src="img/kmslide_phones.jpg" 
          style="position: absolute; top: 50px; left: 50px; transform: translate(900%, 50%); width: 150px; height: 150px;" 
          alt="Overlay Image">
 </div> -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/kmslide_2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="font-size: 4rem; color: white">What Is VoIP?</h5>
+                        <p style="font-size: 55px;">
+                            VOIP is the next generation in telephony worldwide, enabling reliable voice communications for modern businesses.
+                            VoIP stands for Voice Over Internet Protocol and has become the fastest-growing form of telecommunications in South Africa..
+                        </p>
+                        <p style="font-size: 60px;">
+                            Traditional phone calls travel across copper wire (PSTN) or digital (ISDN) phone lines that have been laid across South Africa by the previously state-owned Telkom;
+                            VoIP phone calls are different in that you don’t need to use these phone lines based on old copper infrastructure – you just need an internet connection.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/kmslide_3.jpeg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="font-size: 4rem; color: white">OUR MISSION</h5>
+                        <p style="font-size: 55px;">
+                            Providing The Best Solutions
+                            We are tirelessly driven to deliver accurate and rapid service, without impacting our ability to develop valuable and productive relationships with our clients. Our capabilities of servicing and maintaining internationally recognized Telephony & IT equipment is crucial in
+                            maintaining an efficient corporate office solution strategy, and whether it is a small office or a large multinational corporation we can provide the turnkey solution for you.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="w-100" src="img/kmslide_2.jpg" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 style="font-size: 4rem; color: white">What Is VoIP?</h5>
-                    <p style="font-size: 55px;">
-    VOIP is the next generation in telephony worldwide, enabling reliable voice communications for modern businesses. 
-    VoIP stands for Voice Over Internet Protocol and has become the fastest-growing form of telecommunications in South Africa..
-</p>
-<p style="font-size: 60px;">
-  Traditional phone calls travel across copper wire (PSTN) or digital (ISDN) phone lines that have been laid across South Africa by the previously state-owned Telkom; 
-  VoIP phone calls are different in that you don’t need to use these phone lines based on old copper infrastructure – you just need an internet connection.  
-</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="w-100" src="img/kmslide_3.jpeg" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                   <h5 style="font-size: 4rem; color: white">OUR MISSION</h5>
-                    <p style="font-size: 55px;">
-    Providing The Best Solutions
-We are tirelessly driven to deliver accurate and rapid service, without impacting our ability to develop valuable and productive relationships with our clients. Our capabilities of servicing and maintaining internationally recognized Telephony & IT equipment is crucial in 
-maintaining an efficient corporate office solution strategy, and whether it is a small office or a large multinational corporation we can provide the turnkey solution for you.
-</p>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#auto-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#auto-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#auto-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#auto-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
-</div>
 
- <!-- Partners Start -->
+    <!-- Partners Start -->
     <!-- Facts Start -->
     <div class="container-fluid facts my-5 p-5">
         <div class="row g-5">
@@ -412,7 +413,7 @@ maintaining an efficient corporate office solution strategy, and whether it is a
 
 
     <!-- Project Start -->
-<!--     <div class="container-fluid bg-dark pt-5 my-5 px-0">
+    <!--     <div class="container-fluid bg-dark pt-5 my-5 px-0">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
             <p class="fw-medium text-uppercase text-primary mb-2">Our Projects</p>
             <h1 class="display-5 text-white mb-5">See What We Have Completed Recently</h1>
@@ -481,7 +482,7 @@ maintaining an efficient corporate office solution strategy, and whether it is a
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                </div>                                                              
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -590,10 +591,10 @@ maintaining an efficient corporate office solution strategy, and whether it is a
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Our Office</h5>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>
-    <a href="https://www.google.com/maps?q=263+Oak+Ave,+Randburg,+Gauteng" target="_blank" class="text-white">
-        263 Oak Ave, Randburg, Gauteng
-    </a>
-</p>
+                        <a href="https://www.google.com/maps?q=263+Oak+Ave,+Randburg,+Gauteng" target="_blank" class="text-white">
+                            263 Oak Ave, Randburg, Gauteng
+                        </a>
+                    </p>
                     <p class="mb-2">
                         <i class="fa fa-phone-alt me-3"></i>
                         <a href="tel:0100107470" class="text-white">010 010 7470</a>
@@ -665,6 +666,7 @@ maintaining an efficient corporate office solution strategy, and whether it is a
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
