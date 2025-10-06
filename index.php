@@ -77,7 +77,7 @@
                 <a href="service.php" class="nav-item nav-link">Services</a>
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+            <a href="quote.php" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -95,7 +95,7 @@
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Stay connected with our Fast and Reliable Internet</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">We offer Fiber, LTE & 5G CONNECTIONS.</h1>
-                                    <a href="extra.html" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <a href="extra.php" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
                                 <button onclick="loadExtraContent()"></button>
 <div id="extra-content" style="display: none;"></div>
 
@@ -309,21 +309,21 @@ maintaining an efficient corporate office solution strategy, and whether it is a
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
                 <div class="text-center border p-5">
                     <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">135</h1>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">5</h1>
                     <span class="fs-5 fw-semi-bold text-white">Team Members</span>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
                 <div class="text-center border p-5">
                     <i class="fa fa-users fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">957</h1>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">85</h1>
                     <span class="fs-5 fw-semi-bold text-white">Happy Clients</span>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
                 <div class="text-center border p-5">
                     <i class="fa fa-check-double fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">1839</h1>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">250</h1>
                     <span class="fs-5 fw-semi-bold text-white">Projects Done</span>
                 </div>
             </div>

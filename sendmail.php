@@ -6,9 +6,9 @@ require 'vendor/autoload.php';
 
 $messageSent = '';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email = filter_var($_POST["email"], FILTER_VALIDATE_EMAIL);
-    $subject = htmlspecialchars(trim($_POST["subject"]));
-    $message = htmlspecialchars(trim($_POST["message"]));
+    $email = filter_var($_POST["email"] ?? '', FILTER_VALIDATE_EMAIL);
+    $subject = htmlspecialchars(trim($_POST["subject"] ?? ''));
+    $message = htmlspecialchars(trim($_POST["message"] ?? ''));
     
     //if ($email && !empty($subject) && !empty($message))
     

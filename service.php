@@ -77,7 +77,7 @@
                 <a href="service.php" class="nav-item nav-link">Services</a>
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+            <a href="quote.php" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
         </div>
     </nav>
     <!-- Navbar End -->
