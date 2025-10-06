@@ -78,11 +78,7 @@
                 <a href="service.php" class="nav-item nav-link active">Services</a>
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
-<<<<<<< HEAD
-            <a href="quote.php" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
-=======
             <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#quoteModal">Get A Quote</a>
->>>>>>> 594eff8a51d5128564ceb1f4a18b30e9cf773e9c
         </div>
     </nav>
     <!-- Navbar End -->
