@@ -1,24 +1,17 @@
 <?php
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
 
-$messageSent = '';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-<<<<<<< HEAD
-    $email = filter_var($_POST["email"] ?? '', FILTER_VALIDATE_EMAIL);
-    $subject = htmlspecialchars(trim($_POST["subject"] ?? ''));
-    $message = htmlspecialchars(trim($_POST["message"] ?? ''));
-=======
     $email = filter_var($_POST["email"], FILTER_VALIDATE_EMAIL);
     $subject = htmlspecialchars(trim($_POST["subject"]));
     $message = htmlspecialchars(trim($_POST["message"]));
     $name = htmlspecialchars(trim($_POST["name"]));
->>>>>>> 594eff8a51d5128564ceb1f4a18b30e9cf773e9c
-    
-    if ($email && !empty($subject) && !empty($message))
-     {
+
+    if ($email && !empty($subject) && !empty($message)) {
         $mail = new PHPMailer(true);
 
         try {
@@ -32,21 +25,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->Port = 587;
 
             // Email content
-            $mail->setFrom('support@kmtelecomsa.co.za', $name . ' - KMCT Website');
+            $mail->setFrom('support@kmtelecomsa.co.za', 'KMCT Quote Request');
             $mail->addAddress('khotsonthuba@gmail.com');
-            $mail->addReplyTo($email); // User's email for reply
-            $mail->Subject = $subject;
-            $mail->Body = $message;
+            $mail->addReplyTo($email);
+            $mail->Subject = 'Quote Request: ' . $subject;
+            $mail->Body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
 
             $mail->send();
-            $messageSent = "Message sent!";
+            echo "Message sent! Our team will be in touch soon. Please check your emails.";
         } catch (Exception $e) {
-            $messageSent = "Mailer Error: " . $mail->ErrorInfo;
+            echo "Mailer Error: " . $mail->ErrorInfo;
         }
     } else {
-        $messageSent = "Invalid input. Please check your entries.";
+        echo "Invalid input. Please check your entries.";
     }
+    exit;
 }
 ?>
-
-
