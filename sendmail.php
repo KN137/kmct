@@ -6,16 +6,10 @@ require 'vendor/autoload.php';
 
 $messageSent = '';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-<<<<<<< HEAD
-    $email = filter_var($_POST["email"] ?? '', FILTER_VALIDATE_EMAIL);
-    $subject = htmlspecialchars(trim($_POST["subject"] ?? ''));
-    $message = htmlspecialchars(trim($_POST["message"] ?? ''));
-=======
     $email = filter_var($_POST["email"], FILTER_VALIDATE_EMAIL);
     $subject = htmlspecialchars(trim($_POST["subject"]));
     $message = htmlspecialchars(trim($_POST["message"]));
     $name = htmlspecialchars(trim($_POST["name"]));
->>>>>>> 594eff8a51d5128564ceb1f4a18b30e9cf773e9c
     
     if ($email && !empty($subject) && !empty($message))
      {
