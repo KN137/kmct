@@ -30,7 +30,8 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
-
+<?php include 'quote-modal.php'; ?>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -72,12 +73,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.php" class="nav-item nav-link active">Home</a>
+                <a href="index.php" class="nav-item nav-link">Home</a>
                 <a href="about.php" class="nav-item nav-link">About</a>
                 <a href="service.php" class="nav-item nav-link">Services</a>
-                <a href="contact.php" class="nav-item nav-link">Contact</a>
+                <a href="contact.php" class="nav-item nav-link active">Contact</a>
             </div>
-            <a href="" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+            <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#quoteModal">Get A Quote</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -86,7 +87,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text-white animated slideInRight">Contact</h1>
+            <h1 class="display-3 text</div>-white animated slideInRight">Contact US</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -105,7 +106,7 @@
             <div class="row g-5 justify-content-center mb-5">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="bg-light text-center h-100 p-5">
-                        <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                        <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #5493d3ff;">
                             <i class="fa fa-phone-alt fa-2x text-primary"></i>
                         </div>
                         <h4 class="mb-3">Phone Number</h4>
@@ -149,7 +150,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <p class="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
                     <h1 class="display-5 mb-4">If You Have Any Queries, Please Feel Free To Contact Us</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <p class="mb-4">Our Team is always ready for you. Call us on the number below, Write an Email or just fill in the form on the right with a message and our team we will be in contact with you</a>.</p>
                     <div class="row g-4">
                         <div class="col-6">
                             <div class="d-flex">
@@ -176,29 +177,29 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <form action="sendmail.php" method="POST">
+                    <form id="contactForm" action="sendmail.php" method="POST">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
                                     <label for="subject">Subject</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 150px" required></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
@@ -207,6 +208,11 @@
                             </div>
                         </div>
                     </form>
+                    <div id="popupMessage" style="display:none;position:fixed;top:30%;left:50%;transform:translate(-50%,-50%);background:#fff;padding:30px;border-radius:8px;box-shadow:0 0 10px #000;text-align:center;z-index:9999;">
+                        <span id="popupText"></span>
+                        <br><br>
+                        <button onclick="document.getElementById('popupMessage').style.display='none';" class="btn btn-primary">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -276,7 +282,7 @@
         <div class="container text-center">
             <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">KM Connect Telecoms</a>, All Right Reserved.</p>
             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a></p>
+            <!--/***<p class="mb-0">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a></p> ***/-->
         </div>
     </div>
     <!-- Copyright End -->
@@ -297,6 +303,29 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var form = e.target;
+    var formData = new FormData(form);
+
+    fetch(form.action, {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+        // Show popup
+        document.getElementById('popupText').textContent = 'Message sent!';
+        document.getElementById('popupMessage').style.display = 'block';
+        form.reset();
+    })
+    .catch(error => {
+        document.getElementById('popupText').textContent = 'Error sending message.';
+        document.getElementById('popupMessage').style.display = 'block';
+    });
+});
+</script>
 </body>
 
 </html>
