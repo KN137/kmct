@@ -96,8 +96,8 @@
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Stay connected with our Fast and Reliable Internet</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">We offer Fiber, LTE & 5G CONNECTIONS.</h1>
-                                    <a href="extra.html" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
-                                    <button onclick="loadExtraContent()"></button>
+                                    <a href="#" class="btn btn-primary py-3 px-5 explore-more-btn animated slideInRight" data-explore="fiber" data-bs-toggle="modal" data-bs-target="#exploreModal">Explore More</a>
+
                                     <div id="extra-content" style="display: none;"></div>
 
                                     <script>
@@ -123,7 +123,7 @@
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Where experience meets Innovation</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">The Best Reliable ITC Solution</h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <a href="#" class="btn btn-primary py-3 px-5 explore-more-btn animated slideInRight" data-explore="itc" data-bs-toggle="modal" data-bs-target="#exploreModal">Explore More</a>
                                 </div>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Our offices and production Priters</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">Tired of paper JAM? Try US.</h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <a href="#" class="btn btn-primary py-3 px-5 explore-more-btn animated slideInRight" data-explore="printer" data-bs-toggle="modal" data-bs-target="#exploreModal">Explore More</a>
                                 </div>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">VOIP Solutions</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">local or International calls with Clear Quality. </h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <a href="#" class="btn btn-primary py-3 px-5 explore-more-btn animated slideInRight" data-explore="voip" data-bs-toggle="modal" data-bs-target="#exploreModal">Explore More</a>
                                 </div>
                             </div>
                         </div>
@@ -191,7 +191,7 @@
                             <img class="img-fluid" src="img/kmslide_9.jpg">
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="img/kmslide_10.png">
+                            <img class="img-fluid" src="img/images/c650i_printer.webp">
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
         </div>
     </div>
     <!-- About End -->
-    
+
     <!-- Facts Start -->
     <div class="container-fluid facts my-5 p-5">
         <div class="row g-5">
@@ -428,6 +428,79 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+        const exploreContents = {
+            fiber: `
+    <strong>Fiber, LTE & 5G Connections</strong>
+    <ul>
+      <li>Ultra-fast and reliable internet speeds</li>
+      <li>Flexible packages for home and business</li>
+      <li>Seamless streaming and downloads</li>
+      <li>Professional installation and support</li>
+      <li>24/7 customer care</li>
+    </ul>
+    <p>Choose us for a hassle-free connection experience and ongoing support that keeps you online.</p>
+  `,
+            itc: `
+    <strong>Reliable ITC Solution</strong>
+    <ul>
+      <li>Comprehensive IT consulting</li>
+      <li>Custom solutions for your business</li>
+      <li>Proactive system monitoring</li>
+      <li>Cybersecurity and data protection</li>
+      <li>Expert support team</li>
+    </ul>
+    <p>Let us handle your IT so you can focus on your business growth and success.</p>
+  `,
+            printer: `
+    <strong>Office and Production Printers</strong>
+    <ul>
+      <li>High-performance printers for all needs</li>
+      <li>Efficient and cost-effective printing</li>
+      <li>Professional setup and training</li>
+      <li>Maintenance and repair services</li>
+      <li>Wide range of models and brands</li>
+    </ul>
+    <p>We ensure your printing never stops. Trust us for reliable office automation.</p>
+  `,
+            voip: `
+    <strong>VOIP Solutions</strong>
+    <ul>
+      <li>Crystal-clear call quality</li>
+      <li>Affordable local and international rates</li>
+      <li>Advanced PBX features</li>
+      <li>Easy integration with your systems</li>
+      <li>Scalable for any business size</li>
+    </ul>
+    <p>Stay connected with our expert VOIP setup and ongoing support.</p>
+  `
+        };
+
+        document.querySelectorAll('.explore-more-btn').forEach(function(btn) {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                const key = btn.getAttribute('data-explore');
+                document.getElementById('exploreModalLabel').textContent = btn.closest('.carousel-caption').querySelector('h1').textContent;
+                document.getElementById('exploreModalBody').innerHTML = exploreContents[key] || "More information coming soon.";
+            });
+        });
+    </script>
+
+    <!-- Explore More Modal -->
+    <div class="modal fade" id="exploreModal" tabindex="-1" aria-labelledby="exploreModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-3">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exploreModalLabel">More Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="exploreModalBody">
+                    <!-- Content will be injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
