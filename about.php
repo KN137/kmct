@@ -31,6 +31,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <?php include 'quote-modal.php'; ?>
+<?php include 'call-modal.php'; ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 <body>
     <!-- Spinner Start -->
@@ -78,8 +79,9 @@
                 <a href="service.php" class="nav-item nav-link">Services</a>
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#quoteModal">Get A Quote</a>
-    </nav>
+            <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
+            <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Qoute</a>
+        </nav>
     <!-- Navbar End -->
 
 
