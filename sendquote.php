@@ -7,9 +7,12 @@ require 'vendor/autoload.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = filter_var($_POST["email"], FILTER_VALIDATE_EMAIL);
-    $subject = htmlspecialchars(trim($_POST["subject"]));
+    $phone = htmlspecialchars(trim($_POST["phone"]));
     $message = htmlspecialchars(trim($_POST["message"]));
     $name = htmlspecialchars(trim($_POST["name"]));
+    $company = htmlspecialchars(trim($_POST["company"]));
+    $address = htmlspecialchars(trim($_POST["address"]));
+    $service_type = htmlspecialchars(trim($_POST["service_type"]));
 
     if ($email && !empty($subject) && !empty($message)) {
         $mail = new PHPMailer(true);
@@ -28,8 +31,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->setFrom('support@kmtelecomsa.co.za', $name. 'is requesting a Quote');
             $mail->addAddress('info@kmtelecomsa.co.za');
             $mail->addReplyTo($email);
-            $mail->Subject = 'Quote Request: ' . $subject;
-            $mail->Body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
+            $mail->Subject = 'Quote Request from : ' . $company;
+            $mail->Body = "Name: $name\nEmail: $email\nPhone no: $phone\nAddress: $address\nService: $service\n\nMessage:\n$message";
 
             $mail->send();
             echo "Message sent! Our team will be in touch soon. Please check your emails.";
