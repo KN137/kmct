@@ -97,12 +97,12 @@
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Stay connected with our Fast and Reliable Internet</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">We offer Fiber, LTE & 5G CONNECTIONS.</h1>
                                     <a href="extra.html" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
-                                    <button onclick="loadExtraContent()"></button>
+                                    <button onclick=extra.php></button>
                                     <div id="extra-content" style="display: none;"></div>
 
                                     <script>
                                         function loadExtraContent() {
-                                            fetch('extra.html')
+                                            fetch('extra.php')
                                                 .then(response => response.text())
                                                 .then(html => {
                                                     document.getElementById('extra-content').innerHTML = html;

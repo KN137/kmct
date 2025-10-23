@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Email content
             $mail->setFrom('support@kmtelecomsa.co.za', 'KMCT Quote Request');
-            $mail->addAddress('khotsonthuba@gmail.com');
+            $mail->addAddress('support@kmtelecomsa.co.za');
             $mail->addReplyTo($email);
             $mail->Subject = 'Quote Request: ' . $subject;
             $mail->Body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
