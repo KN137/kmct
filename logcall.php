@@ -5,7 +5,7 @@ use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if  ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = filter_var($_POST["email"], FILTER_VALIDATE_EMAIL);
     $subject = htmlspecialchars(trim($_POST["subject"]));
     $message = htmlspecialchars(trim($_POST["message"]));

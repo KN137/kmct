@@ -6,14 +6,13 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email = filter_var($_POST["email"], FILTER_VALIDATE_EMAIL);
-    $phone = htmlspecialchars(trim($_POST["phone"]));
-    $message = htmlspecialchars(trim($_POST["message"]));
-    $name = htmlspecialchars(trim($_POST["name"]));
-    $company = htmlspecialchars(trim($_POST["company"]));
-    $address = htmlspecialchars(trim($_POST["address"]));
-    $service_type = htmlspecialchars(trim($_POST["service_type"]));
-
+    $email = filter_var($_POST["email_qoute"], FILTER_VALIDATE_EMAIL);
+    $phone = htmlspecialchars(trim($_POST["phone_quote"]));
+    $message = htmlspecialchars(trim($_POST["message_quote"]));
+    $name = htmlspecialchars(trim($_POST["name_quote"]));
+    $company = htmlspecialchars(trim($_POST["company_quote"]));
+    $address = htmlspecialchars(trim($_POST["address_quote"]));
+    
     if ($email && !empty($subject) && !empty($message)) {
         $mail = new PHPMailer(true);
 
@@ -22,17 +21,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->isSMTP();
             $mail->Host = 'smtp.kmtelecomsa.co.za';
             $mail->SMTPAuth = true;
-            $mail->Username = 'support@kmtelecomsa.co.za';
-            $mail->Password = 'D387V0171R7ib3';
+            $mail->Username = 'printer@kmtelecomsa.co.za';
+            $mail->Password = 'KMCT3l3c0m@123';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
             // Email content
-            $mail->setFrom('support@kmtelecomsa.co.za', $name. 'is requesting a Quote');
+            $mail->setFrom('support@kmtelecomsa.co.za', name: $name. 'is requesting a Quote');
             $mail->addAddress('info@kmtelecomsa.co.za');
             $mail->addReplyTo($email);
             $mail->Subject = 'Quote Request from : ' . $company;
-            $mail->Body = "Name: $name\nEmail: $email\nPhone no: $phone\nAddress: $address\nService: $service\n\nMessage:\n$message";
+            $mail->Body = "Name: $name\nEmail: $email\nPhone no: $phone\nAddress: $address\nMessage:\n$message";
 
             $mail->send();
             echo "Message sent! Our team will be in touch soon. Please check your emails.";
