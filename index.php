@@ -101,17 +101,6 @@
                                     <a href="#" class="btn btn-primary py-3 px-5 explore-more-btn animated slideInRight" data-explore="fiber" data-bs-toggle="modal" data-bs-target="#exploreModal">Explore More</a>
 
                                     <div id="extra-content" style="display: none;"></div>
-
-                                    <script>
-                                        function loadExtraContent() {
-                                            fetch('extra.html')
-                                                .then(response => response.text())
-                                                .then(html => {
-                                                    document.getElementById('extra-content').innerHTML = html;
-                                                    document.getElementById('extra-content').style.display = 'block';
-                                                });
-                                        }
-                                    </script>
                                 </div>
                             </div>
                         </div>
