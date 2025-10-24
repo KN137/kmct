@@ -27,8 +27,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->Port = 587;
 
             // Email content
-            $mail->setFrom('support@kmtelecomsa.co.za', $name. 'is requesting a Quote');
+<<<<<<< HEAD
+            $mail->setFrom('support@kmtelecomsa.co.za', 'KMCT Quote Request');
+            $mail->addAddress('support@kmtelecomsa.co.za');
+=======
+            $mail->setFrom('support@kmtelecomsa.co.za', name: $name. 'is requesting a Quote');
             $mail->addAddress('info@kmtelecomsa.co.za');
+>>>>>>> f34b27ee830ec73d690c00a73af1eec596c27803
             $mail->addReplyTo($email);
             $mail->Subject = 'Quote Request from : ' . $company;
             $mail->Body = "Name: $name\nEmail: $email\nPhone no: $phone\nAddress: $address\nMessage:\n$message";

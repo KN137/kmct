@@ -27,7 +27,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Email content
             $mail->setFrom('support@kmtelecomsa.co.za', $name . ' - KMCT Website');
+<<<<<<< HEAD
+            $mail->addAddress('support@kmtelecomsa.co.za');
+=======
             $mail->addAddress('info@kmtelecomsa.co.za');
+>>>>>>> f34b27ee830ec73d690c00a73af1eec596c27803
             $mail->addReplyTo($email); // User's email for reply
             $mail->Subject = $subject;
             $mail->Body = $message;
