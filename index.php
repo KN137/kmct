@@ -98,25 +98,9 @@
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Stay connected with our Fast and Reliable Internet</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">We offer Fiber, LTE & 5G CONNECTIONS.</h1>
-<<<<<<< HEAD
-                                    <a href="extra.html" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
-                                    <button onclick=extra.php></button>
-=======
                                     <a href="#" class="btn btn-primary py-3 px-5 explore-more-btn animated slideInRight" data-explore="fiber" data-bs-toggle="modal" data-bs-target="#exploreModal">Explore More</a>
 
->>>>>>> f34b27ee830ec73d690c00a73af1eec596c27803
                                     <div id="extra-content" style="display: none;"></div>
-
-                                    <script>
-                                        function loadExtraContent() {
-                                            fetch('extra.php')
-                                                .then(response => response.text())
-                                                .then(html => {
-                                                    document.getElementById('extra-content').innerHTML = html;
-                                                    document.getElementById('extra-content').style.display = 'block';
-                                                });
-                                        }
-                                    </script>
                                 </div>
                             </div>
                         </div>
