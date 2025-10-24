@@ -6,7 +6,7 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email = filter_var($_POST["email_qoute"], FILTER_VALIDATE_EMAIL);
+    $email = filter_var($_POST["email_quote"], FILTER_VALIDATE_EMAIL);
     $phone = htmlspecialchars(trim($_POST["phone_quote"]));
     $message = htmlspecialchars(trim($_POST["message_quote"]));
     $name = htmlspecialchars(trim($_POST["name_quote"]));
@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->Port = 587;
 
             // Email content
-            $mail->setFrom('support@kmtelecomsa.co.za', name: $name. 'is requesting a Quote');
+            $mail->setFrom('support@kmtelecomsa.co.za', $name. 'is requesting a Quote');
             $mail->addAddress('info@kmtelecomsa.co.za');
             $mail->addReplyTo($email);
             $mail->Subject = 'Quote Request from : ' . $company;
