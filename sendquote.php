@@ -7,11 +7,14 @@ require 'vendor/autoload.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = filter_var($_POST["email"], FILTER_VALIDATE_EMAIL);
-    $subject = htmlspecialchars(trim($_POST["subject"]));
+    $phone = htmlspecialchars(trim($_POST["phone"]));
     $message = htmlspecialchars(trim($_POST["message"]));
     $name = htmlspecialchars(trim($_POST["name"]));
+    $company = htmlspecialchars(trim($_POST["company"]));
+    $address = htmlspecialchars(trim($_POST["address"]));
+    $service = htmlspecialchars(trim($_POST["service"]));
 
-    if ($email && !empty($subject) && !empty($message)) {
+    if ($email && !empty($name) && !empty($message)) {
         $mail = new PHPMailer(true);
 
         try {
@@ -25,11 +28,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->Port = 587;
 
             // Email content
-            $mail->setFrom('support@kmtelecomsa.co.za', $name. 'is requesting a Quote');
+            $mail->setFrom('support@kmtelecomsa.co.za', $name. ' is requesting a Quote');
             $mail->addAddress('info@kmtelecomsa.co.za');
             $mail->addReplyTo($email);
-            $mail->Subject = 'Quote Request: ' . $subject;
-            $mail->Body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
+            $mail->Subject = 'Quote Request: From ' . $company;
+            $mail->Body = "Name: $name\nEmail: $email\nmy phone number is: $phone\n\nOur location: $address\n\nService requested:\n$service\n\nMessage:\n$message";
 
             $mail->send();
             echo "Message sent! Our team will be in touch soon. Please check your emails.";

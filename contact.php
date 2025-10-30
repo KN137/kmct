@@ -56,7 +56,7 @@
             <div class="col-lg-6 text-end">
                 <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
                     <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
-                    <span class="fs-5 fw-bold">010 010 7470</span>
+                    <a href="tel:0100107470" class="fs-5 fw-bold text-white">010 010 7470</a>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
                 <a href="contact.php" class="nav-item nav-link active">Contact</a>
             </div>
             <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
-            <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Qoute</a>
+            <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Quote</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -113,7 +113,6 @@
                         </div>
                         <h4 class="mb-3">Phone Number</h4>
                         <p class="mb-2">010 010 7470</p>
-                        <p class="mb-4">072 920 3420</p>
                         <a class="btn btn-primary px-4" href="tel:+0123456789">Call Now <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -161,7 +160,7 @@
                                 </div>
                                 <div class="ms-3">
                                     <h6>Call Us</h6>
-                                    <span>010 010 7470</span>
+                                    <a href="tel:0100107470">010 010 7470</a>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +171,7 @@
                                 </div>
                                 <div class="ms-3">
                                     <h6>Mail Us</h6>
-                                    <span>info@kmtelecomsa.co.za</span>
+                                    <a href="mailto:info@kmtelecomsa.co.za" class="text-Blue">info@kmtelecomsa.co.za</a>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +239,7 @@
 </p>
                     <p class="mb-2">
     <i class="fa fa-envelope me-3"></i>
-    <a href="mailto:info@kmtelecomsa.com" class="text-white">info@kmtelecomsa.com</a>
+    <a href="mailto:info@kmtelecomsa.co.za" class="text-white">info@kmtelecomsa.co.za</a>
 </p>
                     <div class="d-flex pt-3">
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>

@@ -30,14 +30,10 @@
             <label for="address" class="form-label">address</label>
             <input type="text" class="form-control" id="address" name="address" required>
           </div>
-          <div class="mb-3">
-            <label for="subject" class="form-label">Subject</label>
-            <input type="text" class="form-control" id="subject" name="subject" required>
-          </div>
           <!-- Service type dropdown -->
           <div class="mb-3">
             <label for="service_type" class="form-label">Service Type</label>
-            <select class="form-control" id="service_type" name="service_type" required>
+            <select class="form-control" id="service_type" name="service" required>
               <option value="" disabled selected>Select service</option>
               <option value="networking">networking</option>
               <option value="printers">printers</option>

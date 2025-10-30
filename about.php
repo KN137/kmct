@@ -80,7 +80,7 @@
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
             <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
-            <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Qoute</a>
+            <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Quote</a>
         </nav>
     <!-- Navbar End -->
 
@@ -141,7 +141,7 @@
                                 </div>
                                 <div class="ms-3">
                                     <p class="mb-2">Email us</p>
-                                    <h6 class="mb-0">info@kmtelecomsa.co.za</h6>
+                                    <h6><a href="mailto:info@kmtelecomsa.co.za" class="mb-0">info@kmtelecomsa.co.za</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
                                 </div>
                                 <div class="ms-3">
                                     <p class="mb-2">Call us</p>
-                                    <h6 class="mb-0">010 010 7470</h6>
+                                    <h6><a href="tel:0100107470" class="mb-0">010 010 7470</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -184,7 +184,7 @@
     <!-- why end -->
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="fw-medium text-uppercase text-primary mb-2">Testimonial</p>
@@ -310,7 +310,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
     <!-- Footer Start -->
@@ -330,7 +330,7 @@
                     </p>
                     <p class="mb-2">
                         <i class="fa fa-envelope me-3"></i>
-                        <a href="mailto:info@kmtelecomsa.com" class="text-white">info@kmtelecomsa.com</a>
+                        <a href="mailto:info@kmtelecomsa.co.za" class="text-white">info@kmtelecomsa.co.za</a>
                     </p>
                     <div class="d-flex pt-3">
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
