@@ -126,7 +126,7 @@
 Stay connected with cost-effective telecom solutions that grow with your business.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="voip" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="voiceService.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -146,7 +146,7 @@ Stay connected with cost-effective telecom solutions that grow with your busines
 We keep your business online, secure, and always connected.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="internet" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="connectivity.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -166,7 +166,7 @@ We keep your business online, secure, and always connected.</p>
 From setup to troubleshooting, we’ve got your business covered.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="it" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="officeIT.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -186,7 +186,7 @@ From setup to troubleshooting, we’ve got your business covered.</p>
 We design, install, and maintain security solutions you can trust.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="cctv" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="cctv.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -206,7 +206,7 @@ We design, install, and maintain security solutions you can trust.</p>
 We supply, install, and support printers for all business needs.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="printers" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="printers.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -226,14 +226,13 @@ We supply, install, and support printers for all business needs.</p>
 Uninterrupted power solutions designed to handle outages with ease.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="power" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="power.php">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Service End -->
-
 
     <!-- Partners Start -->
     <div class="container-xxl py-5">

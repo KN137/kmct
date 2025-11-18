@@ -142,7 +142,7 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">VOIP Solutions</p>
+                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">VOICE Solutions</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">local or International calls with Clear Quality. </h1>
                                     <a href="#" class="btn btn-primary py-3 px-5 explore-more-btn animated slideInRight" data-explore="voip" data-bs-toggle="modal" data-bs-target="#exploreModal">Explore More</a>
                                 </div>
@@ -166,6 +166,29 @@
     <!-- Carousel End -->
 
 
+    <!-- KM Connect Intro Start -->
+    <div class="container-xxl py-4">
+        <div class="container">
+            <h1 class="text-center mb-3">KM Connect Telecoms</h1>
+            <h5 class="text-center text-primary mb-4"><strong>TELECOMMUNICATIONS SOLUTIONS IN JOHANNESBURG</strong></h5>
+            <p>
+                KM Connect Telecoms is an authorised supplier of a complete range of internationally recognized brands.
+                As a leading business in the world of corporate office solutions, KM Connect Telecoms offers a complete
+                spectrum of telephony solutions and information technology, including rentals, maintenance and repairs.
+                We have a proven track record of success and aim to become nationwide leaders in reliable telephony
+                equipment and service provision.
+            </p>
+            <p>
+                The directing team at KM Connect Telecoms has an incredible wealth of experience and knowledge in sales,
+                supply and servicing of all telephony and IT solutions. With over 100 collective years of experience between
+                them, they are committed to delivering the very best. Their history in the market demonstrates a mutual past
+                in directing some of the most influential telephony and IT brands in the country. By partnering with us you
+                will ensure your business can benefit from their technical, consulting and skills‑developing expertise.
+            </p>
+        </div>
+    </div>
+    <!-- KM Connect Intro End -->
+
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -187,7 +210,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">About Us</p>
+                    <h1 class="fw-medium text-uppercase text-primary mb-2">What we do best</h1>
                     <h1 class="display-5 mb-4">We Are Leaders In IT & Networking connections</h1>
                     <p class="mb-4">Our Expert team of technicians provide reliable, efficient, and prompt service to keep your business running smoothly.</p>
                     <div class="d-flex align-items-center mb-4">
@@ -197,7 +220,7 @@
                             <h5 class="text-white">we Offer</h5>
                         </div>
                         <div class="ms-4">
-                            <p><i class="fa fa-check text-primary me-2"></i>TELECOMS | VOIP | PBX</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>TELECOMS | VOICE | PBX</p>
                             <p><i class="fa fa-check text-primary me-2"></i>Internet connections & Infrastructure</p>
                             <p><i class="fa fa-check text-primary me-2"></i>IT Services & Support</p>
                             <p><i class="fa fa-check text-primary me-2"></i>Survailance (CCTV & Intercoms)</p>
@@ -225,42 +248,116 @@
         </div>
     </div>
     <!-- About End -->
-
-    <!-- Facts Start -->
-    <div class="container-fluid facts my-5 p-5">
-        <div class="row g-5">
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-                <div class="text-center border p-5">
-                    <i class="fa fa-certificate fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">25</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Combined Years Experience</span>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
-                <div class="text-center border p-5">
-                    <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">5</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Team Members</span>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
-                <div class="text-center border p-5">
-                    <i class="fa fa-users fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">85</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Happy Clients</span>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
-                <div class="text-center border p-5">
-                    <i class="fa fa-check-double fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">250</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Projects Done</span>
-                </div>
-            </div>
+    
+    <!-- Mission & Values Start -->
+    <div class="container-xxl py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="display-5">OUR MISSION</h2>
+          <h5 class="text-primary mb-3">Providing The Best Solutions</h5>
+          <p class="lead mx-auto" style="max-width:900px;">
+            We are tirelessly driven to deliver accurate and rapid service, without impacting our ability to develop valuable and productive relationships with our clients.
+            Our capabilities of servicing and maintaining internationally recognized Telephony &amp; IT equipment is crucial in maintaining an efficient corporate office solution strategy,
+            and whether it is a small office or a large multinational corporation we can provide the turnkey solution for you.
+          </p>
         </div>
-    </div>
-    <!-- Facts End -->
 
+        <div class="row g-5 align-items-center">
+          <!-- Values list styled like Features (LEFT) -->
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <h3 class="mb-4">OUR VALUES</h3>
+
+            <div class="d-flex mb-4">
+              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                <i class="fa fa-check text-white"></i>
+              </div>
+              <div class="ms-4">
+                <h4>Open and honest</h4>
+                <span>We communicate transparently and act with integrity in every engagement, building trust with clients and partners.</span>
+              </div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                <i class="fa fa-check text-white"></i>
+              </div>
+              <div class="ms-4">
+                <h4>Customer-centric</h4>
+                <span>We prioritise customer needs and deliver tailored solutions that drive real business value and satisfaction.</span>
+              </div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                <i class="fa fa-check text-white"></i>
+              </div>
+              <div class="ms-4">
+                <h4>Innovative</h4>
+                <span>We embrace new technologies and creative problem-solving to continuously improve our services and offerings.</span>
+              </div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                <i class="fa fa-check text-white"></i>
+              </div>
+              <div class="ms-4">
+                <h4>Passionate</h4>
+                <span>Our team is committed and driven to exceed expectations, delivering with energy and dedication.</span>
+              </div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                <i class="fa fa-check text-white"></i>
+              </div>
+              <div class="ms-4">
+                <h4>Inclusive</h4>
+                <span>We respect diverse perspectives and design solutions that are accessible and effective for everyone.</span>
+              </div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                <i class="fa fa-check text-white"></i>
+              </div>
+              <div class="ms-4">
+                <h4>Collaborative</h4>
+                <span>We work closely with clients and partners to deliver integrated, end-to-end solutions.</span>
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                <i class="fa fa-check text-white"></i>
+              </div>
+              <div class="ms-4">
+                <h4>Accountable</h4>
+                <span>We take responsibility for our work and ensure reliable follow-through and measurable results.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image (RIGHT) -->
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <img class="img-fluid" src="img/kmslide_cctv.jpg" alt="KM Connect" />
+            
+            <div class="d-flex">
+              <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                <i class="fa fa-check text-white"></i>
+              </div>
+              <div class="ms-4" padding="70px">
+                <h4>Fairness</h4>
+                <span>We treat our clients without partiality and with decency.</span>
+              </div>
+            </div>
+
+            <img class="img-fluid" src="img/kmslide_ups.jpg" alt="KM Connect" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mission & Values End -->
 
     <!-- Features Start -->
     <div class="container-xxl py-5">
@@ -317,25 +414,51 @@
     <!-- Features End -->
 
 
-    <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
+    <!-- Add block start -->
+    <div class="container-xxl py-5 bg-white">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="display-5">~ Rethink Voice & ICT Solutions ~</h2>
+          <h5 class="text-primary mb-3">ADVANCED TELECOMS & IT OFFICE SOLUTIONS FOR YOUR BUSINESS</h5>
+          <p class="mx-auto" style="max-width:900px;">
+            As a leading business in the world of corporate office solutions, KM Connect Telecoms offers a complete spectrum of internationally recognised Telephony solutions and Information Technology brands, including rentals, maintenance and repairs. Our highly trained staff know how to work with you to provide you with the best possible equipment and solutions. From Telephony and IT equipment for your office to comprehensive software solutions – KM Connect Telecoms delivers the equipment and service that every business in South Africa can benefit from:
+          </p>
         </div>
+
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="service-item text-center p-4 border h-100">
+              <h5 class="mb-3">TELECOMS | VOICE | PBX</h5>
+              <p>Scalable telephony platforms, SIP trunking and PBX solutions for any business size.</p>
+              <a href="#" class="btn btn-link read-more-btn" data-service="voip" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-item text-center p-4 border h-100">
+              <h5 class="mb-3">SECURITY</h5>
+              <p>CCTV, access control and intercom systems to protect your premises and staff.</p>
+              <a href="#" class="btn btn-link read-more-btn" data-service="cctv" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-item text-center p-4 border h-100">
+              <h5 class="mb-3">POWER SOLUTIONS</h5>
+              <p>UPS and generator solutions to keep critical systems running during outages.</p>
+              <a href="#" class="btn btn-link read-more-btn" data-service="power" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service-item text-center p-4 border h-100">
+              <h5 class="mb-3">IT SERVICE & SUPPORT</h5>
+              <p>Managed IT, support contracts and consulting to keep your IT reliable and secure.</p>
+              <a href="#" class="btn btn-link read-more-btn" data-service="it" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Video Modal End -->
+    <!-- Add block end -->
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -456,7 +579,7 @@
     <p>We ensure your printing never stops. Trust us for reliable office automation.</p>
   `,
             voip: `
-    <strong>VOIP Solutions</strong>
+    <strong>VOICE Solutions</strong>
     <ul>
       <li>Crystal-clear call quality</li>
       <li>Affordable local and international rates</li>
@@ -464,7 +587,7 @@
       <li>Easy integration with your systems</li>
       <li>Scalable for any business size</li>
     </ul>
-    <p>Stay connected with our expert VOIP setup and ongoing support.</p>
+    <p>Stay connected with our expert VOICE setup and ongoing support.</p>
   `
         };
 

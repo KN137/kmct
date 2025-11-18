@@ -35,12 +35,12 @@
             <label for="service_type" class="form-label">Service Type</label>
             <select class="form-control" id="service_type" name="service" required>
               <option value="" disabled selected>Select service</option>
-              <option value="networking">networking</option>
-              <option value="printers">printers</option>
-              <option value="backup_power">backup power</option>
-              <option value="voip">VoIP</option>
-              <option value="internet_wifi">Internet &amp; WIFI</option>
-              <option value="voip">Other</option>
+              <option value="Networking">Networking</option>
+              <option value="Printers">Printers</option>
+              <option value="Alternate Power">Alternate Power Solutions</option>
+              <option value="Voice">Voice Service</option>
+              <option value="Internet_wifi">Conectivity &amp; WIFI</option>
+              <option value="Othern ">Other</option>
             </select>
           </div>
           <div class="mb-3">
