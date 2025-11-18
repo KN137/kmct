@@ -6,7 +6,6 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-<<<<<<< HEAD
     $email = filter_var($_POST["email_qoute"], FILTER_VALIDATE_EMAIL);
     $phone = htmlspecialchars(trim($_POST["phone_quote"]));
     $message = htmlspecialchars(trim($_POST["message_quote"]));
@@ -15,17 +14,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $address = htmlspecialchars(trim($_POST["address_quote"]));
     
     if ($email && !empty($subject) && !empty($message)) {
-=======
-    $email = filter_var($_POST["email"], FILTER_VALIDATE_EMAIL);
-    $phone = htmlspecialchars(trim($_POST["phone"]));
-    $message = htmlspecialchars(trim($_POST["message"]));
-    $name = htmlspecialchars(trim($_POST["name"]));
-    $company = htmlspecialchars(trim($_POST["company"]));
-    $address = htmlspecialchars(trim($_POST["address"]));
-    $service = htmlspecialchars(trim($_POST["service"]));
-
-    if ($email && !empty($name) && !empty($message)) {
->>>>>>> 15a1a94e98bfa7b5fc4d2995ef81b1e95bb3b2d1
         $mail = new PHPMailer(true);
 
         try {
@@ -33,31 +21,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->isSMTP();
             $mail->Host = 'smtp.kmtelecomsa.co.za';
             $mail->SMTPAuth = true;
-            $mail->Username = 'printer@kmtelecomsa.co.za';
-            $mail->Password = 'KMCT3l3c0m@123';
-            $mail->SMTPSecure = 'tls';
-            $mail->Port = 587;
+            $mail->Username = 'support@kmtelecomsa.co.za';
+            $mail->Password = 'D387V0171R7ib3';
+            $mail->SMTPSecure = 'ssl';
+            $mail->Port = 465;
 
             // Email content
-<<<<<<< HEAD
-<<<<<<< HEAD
             $mail->setFrom('support@kmtelecomsa.co.za', 'KMCT Quote Request');
             $mail->addAddress('support@kmtelecomsa.co.za');
-=======
             $mail->setFrom('support@kmtelecomsa.co.za', name: $name. 'is requesting a Quote');
-=======
-            $mail->setFrom('support@kmtelecomsa.co.za', $name. ' is requesting a Quote');
->>>>>>> 15a1a94e98bfa7b5fc4d2995ef81b1e95bb3b2d1
             $mail->addAddress('info@kmtelecomsa.co.za');
->>>>>>> f34b27ee830ec73d690c00a73af1eec596c27803
             $mail->addReplyTo($email);
-<<<<<<< HEAD
             $mail->Subject = 'Quote Request from : ' . $company;
             $mail->Body = "Name: $name\nEmail: $email\nPhone no: $phone\nAddress: $address\nMessage:\n$message";
-=======
-            $mail->Subject = 'Quote Request: From ' . $company;
-            $mail->Body = "Name: $name\nEmail: $email\nmy phone number is: $phone\n\nOur location: $address\n\nService requested:\n$service\n\nMessage:\n$message";
->>>>>>> 15a1a94e98bfa7b5fc4d2995ef81b1e95bb3b2d1
 
             $mail->send();
             echo "Message sent! Our team will be in touch soon. Please check your emails.";
