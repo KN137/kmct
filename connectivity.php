@@ -40,7 +40,6 @@
     </div>
     <!-- Spinner End -->
 
-
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-0">
         <div class="row g-0 d-none d-lg-flex">
@@ -63,7 +62,6 @@
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
         <a href="index.html" class="navbar-brand ps-5 me-0">
@@ -76,8 +74,8 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.php" class="nav-item nav-link">Home</a>
                 <a href="about.php" class="nav-item nav-link">About</a>
-                <a href="service.php" class="nav-item nav-link">Services</a>
-                <a href="contact.php" class="nav-item nav-link active">Contact</a>
+                <a href="service.php" class="nav-item nav-link active">Services</a>
+                <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
             <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
             <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Quote</a>
@@ -85,141 +83,130 @@
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text</div>-white animated slideInRight">Contact US</h1>
+            <h1 class="display-3 text-white animated slideInRight">Internet Connectivity</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    <li class="breadcrumb-item"><a href="#">Services</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Connectivity and Internet</li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-
-    <!-- Contact Start -->
+    <!-- Connectivity / Internet Content Start -->
     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 justify-content-center mb-5">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="bg-light text-center h-100 p-5">
-                        <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #5493d3ff;">
-                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
-                        </div>
-                        <h4 class="mb-3">Phone Number</h4>
-                        <p class="mb-2">010 010 7470</p>
-                        <a class="btn btn-primary px-4" href="tel:+0123456789">Call Now <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="bg-light text-center h-100 p-5">
-                        <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                            <i class="fa fa-envelope-open fa-2x text-primary"></i>
-                        </div>
-                        <h4 class="mb-3">Email Address</h4>
-                        <p class="mb-2">info@kmtelecomsa.co.za</p>
-                        <p class="mb-4">support@kmtelecomsa.co.za</p>
-                        <a class="btn btn-primary px-4" href="mailto:info@kmtelecomsa.co.za">Email Now <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="bg-light text-center h-100 p-5">
-                        <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                            <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
-                        </div>
-                        <h4 class="mb-3">Office Address</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>263 Oak Ave</p>
-                        <p class="mb-4"> Randburg, Gauteng</p>
-                        <a class="btn btn-primary px-4" href="https://www.google.com/maps?q=263+Oak+Ave,+Ferndale,+Randburg,+2194&output=embed" target="blank">Direction <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
-                    <iframe class="w-100"
-        src="https://www.google.com/maps?q=263+Oak+Ave,+Ferndale,+Randburg,+2194&output=embed"
-        frameborder="0" style="min-height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
-        tabindex="0"></iframe>
-                </div>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
-                    <h1 class="display-5 mb-4">If You Have Any Queries, Please Feel Free To Contact Us</h1>
-                    <p class="mb-4">Our Team is always ready for you. Call us on the number below, Write an Email or just fill in the form on the right with a message and our team we will be in contact with you</a>.</p>
-                    <div class="row g-4">
-                        <div class="col-6">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
-                                    <i class="fa fa-phone-alt text-white"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h6>Call Us</h6>
-                                    <a href="tel:0100107470">010 010 7470</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
-                                    <i class="fa fa-envelope text-white"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h6>Mail Us</h6>
-                                    <a href="mailto:info@kmtelecomsa.co.za" class="text-Blue">info@kmtelecomsa.co.za</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <form id="contactForm" action="sendmail.php" method="POST">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                                    <label for="name">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 150px" required></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                    <div id="popupMessage" style="display:none;position:fixed;top:30%;left:50%;transform:translate(-50%,-50%);background:#fff;padding:30px;border-radius:8px;box-shadow:0 0 10px #000;text-align:center;z-index:9999;">
-                        <span id="popupText"></span>
-                        <br><br>
-                        <button onclick="document.getElementById('popupMessage').style.display='none';" class="btn btn-primary">Close</button>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="display-5">KM Connect Telecoms</h2>
+          <h5 class="text-primary mb-3">FIBER, 5G, LTE, MICROWAVE & NETWORK INFRASTRUCTURE</h5>
+          <p class="lead mx-auto" style="max-width:900px;">
+            We deliver resilient, high‑performance internet and networking solutions tailored for businesses of every size.
+            From fibre and microwave links to 5G/LTE wireless connectivity and full site networking infrastructure, KM Connect Telecoms
+            designs, installs and supports the solutions that keep your operations online and productive.
+          </p>
         </div>
-    </div>
-    <!-- Contact End -->
 
+        <div class="row g-5 align-items-center">
+          <!-- Left: detailed content -->
+          <div class="col-lg-7">
+            <h3 class="mb-3">Our Connectivity Solutions</h3>
+
+            <h5 class="mt-3">Fibre Optic & Leased Lines</h5>
+            <p>Dedicated fibre delivers uncontended bandwidth and low latency for mission‑critical applications, VoIP, cloud services and data backups.</p>
+            <ul>
+              <li>Symmetric high speeds for upload/download</li>
+              <li>Service Level Agreements (SLA) and monitoring</li>
+              <li>Redundant routing and failover options</li>
+              <li>Scalable bandwidth to grow with your business</li>
+              <li>Professional installation and testing</li>
+            </ul>
+
+            <h5 class="mt-3">5G & LTE Wireless</h5>
+            <p>Fast, flexible wireless connectivity ideal for remote sites, temporary deployments or as a resilient backup to fixed links.</p>
+            <ul>
+              <li>Rapid deployment where fixed lines are not available</li>
+              <li>Carrier-grade SIM and managed data plans</li>
+              <li>Low-latency profiles for business voice and apps</li>
+              <li>Seamless failover between wired and wireless</li>
+              <li>Managed security and SIM lifecycle support</li>
+            </ul>
+
+            <h5 class="mt-3">Microwave & Point-to-Point Links</h5>
+            <p>Cost-effective and reliable line-of-sight links for inter-site connectivity, long-distance links and last-mile alternatives.</p>
+            <ul>
+              <li>High-throughput point-to-point links</li>
+              <li>Quick site-to-site deployment with predictable performance</li>
+              <li>Engineered for capacity and reliability</li>
+              <li>Low operational costs versus leased lines in many scenarios</li>
+              <li>Professional alignment and ongoing maintenance</li>
+            </ul>
+
+            <h5 class="mt-3">Networking Infrastructure</h5>
+            <p>Design and deployment of LAN, Wi‑Fi, switching, routing and secure perimeter networking to support modern business needs.</p>
+            <ul>
+              <li>Structured cabling and rack build services</li>
+              <li>Managed switches, VLANs and QoS for voice/data segregation</li>
+              <li>Enterprise Wi‑Fi design and site surveys</li>
+              <li>Firewalling, VPNs and secure remote access</li>
+              <li>Monitoring, support and lifecycle management</li>
+            </ul>
+
+            <p class="mt-3">
+              Why choose KM Connect Telecoms for connectivity? We combine telecom carrier partnerships with local engineering expertise to
+              deliver reliable, secure and cost‑effective connectivity solutions. From initial site survey to SLA-backed support, we ensure
+              your network performs when it matters.
+            </p>
+
+            <div class="mt-4">
+              <a href="#" class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Quote</a>
+              <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
+            </div>
+          </div>
+
+          <!-- Right: image + quick highlights -->
+          <div class="col-lg-5">
+            <img src="img/images/wrack.jpg" alt="Connectivity" class="img-fluid rounded shadow mb-4">
+            <div class="row g-3">
+              <div class="col-12 d-flex">
+                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary me-3">
+                  <i class="fa fa-fiber-simple text-white"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Guaranteed Bandwidth</h5>
+                  <small>Leased lines and SLAs to protect your critical services.</small>
+                </div>
+              </div>
+
+              <div class="col-12 d-flex">
+                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary me-3">
+                  <i class="fa fa-signal text-white"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Wireless Failover</h5>
+                  <small>Automatic 5G/LTE fallback to keep services online.</small>
+                </div>
+              </div>
+
+              <div class="col-12 d-flex">
+                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary me-3">
+                  <i class="fa fa-network-wired text-white"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Enterprise Networking</h5>
+                  <small>Secure switching, routing and Wi‑Fi to support the business.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Connectivity / Internet Content End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -283,7 +270,7 @@
         <div class="container text-center">
             <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">KM Connect Telecoms</a>, All Right Reserved.</p>
             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <!--/***<p class="mb-0">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a></p> ***/-->
+            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a></p>
         </div>
     </div>
     <!-- Copyright End -->
@@ -304,27 +291,30 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script>
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    var form = e.target;
-    var formData = new FormData(form);
 
-    fetch(form.action, {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.text())
-    .then(data => {
-        // Show popup
-        document.getElementById('popupText').textContent = 'Message sent!';
-        document.getElementById('popupMessage').style.display = 'block';
-        form.reset();
-    })
-    .catch(error => {
-        document.getElementById('popupText').textContent = 'Error sending message.';
-        document.getElementById('popupMessage').style.display = 'block';
-    });
+    <!-- Service Details Modal -->
+<div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content rounded-3">
+      <div class="modal-header">
+        <h5 class="modal-title" id="serviceModalLabel">Service Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="serviceModalBody">
+        <!-- Service description will be injected here -->
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+
+document.querySelectorAll('.read-more-btn').forEach(function(btn) {
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    const key = btn.getAttribute('data-service');
+    document.getElementById('serviceModalLabel').textContent = btn.closest('.service-item').querySelector('.service-title h3').textContent;
+    document.getElementById('serviceModalBody').innerHTML = serviceDescriptions[key] || "Service details not available.";
+  });
 });
 </script>
 </body>

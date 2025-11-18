@@ -76,8 +76,8 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.php" class="nav-item nav-link">Home</a>
                 <a href="about.php" class="nav-item nav-link">About</a>
-                <a href="service.php" class="nav-item nav-link">Services</a>
-                <a href="contact.php" class="nav-item nav-link active">Contact</a>
+                <a href="service.php" class="nav-item nav-link active">Services</a>
+                <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
             <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
             <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Quote</a>
@@ -89,137 +89,124 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-            <h1 class="display-3 text</div>-white animated slideInRight">Contact US</h1>
+            <h1 class="display-3 text-white animated slideInRight">IT SUPPORT & Cybersecurity</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb animated slideInRight mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    <li class="breadcrumb-item"><a href="#">Services</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">office automation</li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-
-    <!-- Contact Start -->
+    <!-- Office IT / Software & Network Content Start -->
     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 justify-content-center mb-5">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="bg-light text-center h-100 p-5">
-                        <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px; background-color: #5493d3ff;">
-                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
-                        </div>
-                        <h4 class="mb-3">Phone Number</h4>
-                        <p class="mb-2">010 010 7470</p>
-                        <a class="btn btn-primary px-4" href="tel:+0123456789">Call Now <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="bg-light text-center h-100 p-5">
-                        <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                            <i class="fa fa-envelope-open fa-2x text-primary"></i>
-                        </div>
-                        <h4 class="mb-3">Email Address</h4>
-                        <p class="mb-2">info@kmtelecomsa.co.za</p>
-                        <p class="mb-4">support@kmtelecomsa.co.za</p>
-                        <a class="btn btn-primary px-4" href="mailto:info@kmtelecomsa.co.za">Email Now <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="bg-light text-center h-100 p-5">
-                        <div class="btn-square bg-white rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                            <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
-                        </div>
-                        <h4 class="mb-3">Office Address</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>263 Oak Ave</p>
-                        <p class="mb-4"> Randburg, Gauteng</p>
-                        <a class="btn btn-primary px-4" href="https://www.google.com/maps?q=263+Oak+Ave,+Ferndale,+Randburg,+2194&output=embed" target="blank">Direction <i class="fa fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
-                    <iframe class="w-100"
-        src="https://www.google.com/maps?q=263+Oak+Ave,+Ferndale,+Randburg,+2194&output=embed"
-        frameborder="0" style="min-height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
-        tabindex="0"></iframe>
-                </div>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
-                    <h1 class="display-5 mb-4">If You Have Any Queries, Please Feel Free To Contact Us</h1>
-                    <p class="mb-4">Our Team is always ready for you. Call us on the number below, Write an Email or just fill in the form on the right with a message and our team we will be in contact with you</a>.</p>
-                    <div class="row g-4">
-                        <div class="col-6">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
-                                    <i class="fa fa-phone-alt text-white"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h6>Call Us</h6>
-                                    <a href="tel:0100107470">010 010 7470</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle">
-                                    <i class="fa fa-envelope text-white"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h6>Mail Us</h6>
-                                    <a href="mailto:info@kmtelecomsa.co.za" class="text-Blue">info@kmtelecomsa.co.za</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <form id="contactForm" action="sendmail.php" method="POST">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                                    <label for="name">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 150px" required></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                    <div id="popupMessage" style="display:none;position:fixed;top:30%;left:50%;transform:translate(-50%,-50%);background:#fff;padding:30px;border-radius:8px;box-shadow:0 0 10px #000;text-align:center;z-index:9999;">
-                        <span id="popupText"></span>
-                        <br><br>
-                        <button onclick="document.getElementById('popupMessage').style.display='none';" class="btn btn-primary">Close</button>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="display-5">KM Connect Telecoms</h2>
+          <h5 class="text-primary mb-3">SOFTWARE SOLUTIONS, BACKUP SERVERS, ACCESS POINTS & LOCAL NETWORK MANAGEMENT</h5>
+          <p class="lead mx-auto" style="max-width:900px;">
+            We provide end-to-end office IT solutions — from enterprise software deployments and local network management to resilient backup servers and professional Wi‑Fi access point installations.
+            Our services keep your business systems available, secure and optimised for productivity.
+          </p>
         </div>
-    </div>
-    <!-- Contact End -->
 
+        <div class="row g-5 align-items-center">
+          <!-- Left: detailed content -->
+          <div class="col-lg-7">
+            <h3 class="mb-3">Office IT & Software Services</h3>
+
+            <h5 class="mt-3">Software Solutions</h5>
+            <p>Implementation, customisation and support for business software — productivity suites, accounting/ERP, CRM and specialist telephony integrations.</p>
+            <ul>
+              <li>Consultation and requirements mapping</li>
+              <li>Deployment and user training</li>
+              <li>Integration with telephony and VoIP systems</li>
+              <li>Licensing management and upgrades</li>
+              <li>Ongoing support and maintenance</li>
+            </ul>
+
+            <h5 class="mt-3">Backup Servers & Data Protection</h5>
+            <p>Design and supply of on‑premise and hybrid backup servers with scheduled replication and restore testing to protect critical business data.</p>
+            <ul>
+              <li>Automated backups with versioning and retention</li>
+              <li>Offsite replication and cloud-tier options</li>
+              <li>Encryption at rest and in transit</li>
+              <li>Disaster recovery planning and failover testing</li>
+              <li>Regular restore verification to ensure integrity</li>
+            </ul>
+
+            <h5 class="mt-3">Access Points & Wi‑Fi</h5>
+            <p>Enterprise Wi‑Fi design, site surveys and managed access point deployments that deliver reliable coverage and capacity for staff and guests.</p>
+            <ul>
+              <li>Site surveys and RF planning</li>
+              <li>Controller-based or cloud-managed APs</li>
+              <li>Guest portals, captive portals and QoS for voice</li>
+              <li>Security: WPA3, VLAN segmentation and monitoring</li>
+              <li>Scalable designs for multi-floor / multi-site setups</li>
+            </ul>
+
+            <h5 class="mt-3">Local Network Management</h5>
+            <p>Structured cabling, switching, routing and proactive monitoring to ensure your LAN runs smoothly and securely.</p>
+            <ul>
+              <li>VLANs, QoS and traffic shaping for critical apps</li>
+              <li>24/7 monitoring with alerting and incident response</li>
+              <li>Patch management and firmware lifecycle services</li>
+              <li>Performance tuning and capacity planning</li>
+              <li>On-site maintenance and remote troubleshooting</li>
+            </ul>
+
+            <p class="mt-3">
+              KM Connect Telecoms combines local technical expertise with trusted vendor partnerships to deliver secure, resilient and cost-effective IT infrastructure. From planning to support, we ensure your office technology enables business continuity and growth.
+            </p>
+
+            <div class="mt-4">
+              <a href="#" class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Quote</a>
+              <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
+            </div>
+          </div>
+
+          <!-- Right: image + highlights -->
+          <div class="col-lg-5">
+            <img src="img/images/wrack_servers.jpg" alt="Office IT & Networking" class="img-fluid rounded shadow mb-4">
+            <div class="row g-3">
+              <div class="col-12 d-flex">
+                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary me-3">
+                  <i class="fa fa-server text-white"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Resilient Backups</h5>
+                  <small>Automated, encrypted backups with tested restores.</small>
+                </div>
+              </div>
+
+              <div class="col-12 d-flex">
+                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary me-3">
+                  <i class="fa fa-wifi text-white"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Professional Wi‑Fi</h5>
+                  <small>Site-survey driven access point deployments for full coverage.</small>
+                </div>
+              </div>
+
+              <div class="col-12 d-flex">
+                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary me-3">
+                  <i class="fa fa-network-wired text-white"></i>
+                </div>
+                <div>
+                  <h5 class="mb-1">Managed Networks</h5>
+                  <small>Proactive monitoring, VLANs and QoS for reliable operations.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Office IT / Software & Network Content End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -283,7 +270,7 @@
         <div class="container text-center">
             <p class="mb-2">Copyright &copy; <a class="fw-semi-bold" href="#">KM Connect Telecoms</a>, All Right Reserved.</p>
             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <!--/***<p class="mb-0">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a></p> ***/-->
+            <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://htmlcodex.com">HTML Codex</a></p>
         </div>
     </div>
     <!-- Copyright End -->
@@ -304,27 +291,30 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script>
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    var form = e.target;
-    var formData = new FormData(form);
 
-    fetch(form.action, {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.text())
-    .then(data => {
-        // Show popup
-        document.getElementById('popupText').textContent = 'Message sent!';
-        document.getElementById('popupMessage').style.display = 'block';
-        form.reset();
-    })
-    .catch(error => {
-        document.getElementById('popupText').textContent = 'Error sending message.';
-        document.getElementById('popupMessage').style.display = 'block';
-    });
+    <!-- Service Details Modal -->
+<div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content rounded-3">
+      <div class="modal-header">
+        <h5 class="modal-title" id="serviceModalLabel">Service Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="serviceModalBody">
+        <!-- Service description will be injected here -->
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+
+document.querySelectorAll('.read-more-btn').forEach(function(btn) {
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    const key = btn.getAttribute('data-service');
+    document.getElementById('serviceModalLabel').textContent = btn.closest('.service-item').querySelector('.service-title h3').textContent;
+    document.getElementById('serviceModalBody').innerHTML = serviceDescriptions[key] || "Service details not available.";
+  });
 });
 </script>
 </body>

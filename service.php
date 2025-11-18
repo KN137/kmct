@@ -56,7 +56,7 @@
             <div class="col-lg-6 text-end">
                 <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
                     <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
-                    <span class="fs-5 fw-bold">010 010 7470</span>
+                    <a href="tel:0100107470" class="fs-5 fw-bold text-white">010 010 7470</a>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
             <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
-            <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Qoute</a>
+            <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Quote</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -126,7 +126,7 @@
 Stay connected with cost-effective telecom solutions that grow with your business.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="voip" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="voiceService.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -146,7 +146,7 @@ Stay connected with cost-effective telecom solutions that grow with your busines
 We keep your business online, secure, and always connected.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="internet" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="connectivity.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -166,7 +166,7 @@ We keep your business online, secure, and always connected.</p>
 From setup to troubleshooting, we’ve got your business covered.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="it" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="officeIT.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -186,7 +186,7 @@ From setup to troubleshooting, we’ve got your business covered.</p>
 We design, install, and maintain security solutions you can trust.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="cctv" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="cctv.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -206,7 +206,7 @@ We design, install, and maintain security solutions you can trust.</p>
 We supply, install, and support printers for all business needs.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="printers" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="printers.php">Read More</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -226,14 +226,13 @@ We supply, install, and support printers for all business needs.</p>
 Uninterrupted power solutions designed to handle outages with ease.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light read-more-btn" href="#" data-service="power" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                        <a class="btn btn-light" href="power.php">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Service End -->
-
 
     <!-- Partners Start -->
     <div class="container-xxl py-5">
@@ -355,7 +354,7 @@ Uninterrupted power solutions designed to handle outages with ease.</p>
 </p>
                     <p class="mb-2">
     <i class="fa fa-envelope me-3"></i>
-    <a href="mailto:info@kmtelecomsa.com" class="text-white">info@kmtelecomsa.com</a>
+    <a href="mailto:info@kmtelecomsa.co.za" class="text-white">info@kmtelecomsa.co.za</a>
 </p>
                     <div class="d-flex pt-3">
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>

@@ -19,8 +19,29 @@
             <input type="email" class="form-control" id="email_qoute" name="email_qoute" required>
           </div>
           <div class="mb-3">
-            <label for="phone_qoute" class="form-label">Phone number</label>
-            <input type="text" class="form-control" id="phone_qoute" name="phone_qoute" required>
+            <label for="phone" class="form-label">Phone number</label>
+            <input type="text" class="form-control" id="phone" name="phone" required>
+          </div>
+          <div class="mb-3">
+            <label for="company" class="form-label">Company Name</label>
+            <input type="text" class="form-control" id="company" name="company" required>
+          </div>
+          <div class="mb-3">
+            <label for="address" class="form-label">address</label>
+            <input type="text" class="form-control" id="address" name="address" required>
+          </div>
+          <!-- Service type dropdown -->
+          <div class="mb-3">
+            <label for="service_type" class="form-label">Service Type</label>
+            <select class="form-control" id="service_type" name="service" required>
+              <option value="" disabled selected>Select service</option>
+              <option value="Networking">Networking</option>
+              <option value="Printers">Printers</option>
+              <option value="Alternate Power">Alternate Power Solutions</option>
+              <option value="Voice">Voice Service</option>
+              <option value="Internet_wifi">Conectivity &amp; WIFI</option>
+              <option value="Othern ">Other</option>
+            </select>
           </div>
           <div class="mb-3">
             <label for="company_qoute" class="form-label">Company Name</label>
