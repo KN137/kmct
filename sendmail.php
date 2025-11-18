@@ -3,7 +3,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
-
+//new code for sendmail.php
 $messageSent = '';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = filter_var($_POST["email"], FILTER_VALIDATE_EMAIL);
@@ -22,16 +22,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->SMTPAuth = true;
             $mail->Username = 'support@kmtelecomsa.co.za';
             $mail->Password = 'D387V0171R7ib3';
-            $mail->SMTPSecure = 'tls';
-            $mail->Port = 587;
+            $mail->SMTPSecure = 'ssl';
+            $mail->Port = 456;
 
             // Email content
             $mail->setFrom('support@kmtelecomsa.co.za', $name . ' - KMCT Website');
-<<<<<<< HEAD
             $mail->addAddress('support@kmtelecomsa.co.za');
-=======
-            $mail->addAddress('info@kmtelecomsa.co.za');
->>>>>>> f34b27ee830ec73d690c00a73af1eec596c27803
             $mail->addReplyTo($email); // User's email for reply
             $mail->Subject = $subject;
             $mail->Body = $message;
