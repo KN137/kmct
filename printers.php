@@ -101,6 +101,262 @@
     </div>
     <!-- Page Header End -->
 
+    <!-- Printers Catalog Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="display-5">Printer Machines</h2>
+          <p class="lead mx-auto" style="max-width:900px;">
+            High-performance office and production printers from leading brands. Browse models and request a quote or read more about each machine.
+          </p>
+        </div>
+
+        <!-- 16-card grid -->
+        <div class="row g-4">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer1.jpg" class="card-img-top" alt="Printer 1" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 1</h5>
+                <p class="card-text small text-muted">Fast monochrome printer for small offices.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 1" data-desc="Full spec and details for Printer Model 1." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer2.jpg" class="card-img-top" alt="Printer 2" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 2</h5>
+                <p class="card-text small text-muted">Colour multifunction printer with duplex scanning.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 2" data-desc="Full spec and details for Printer Model 2." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer3.jpg" class="card-img-top" alt="Printer 3" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 3</h5>
+                <p class="card-text small text-muted">High-volume A3 printer for production environments.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 3" data-desc="Full spec and details for Printer Model 3." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer4.jpg" class="card-img-top" alt="Printer 4" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 4</h5>
+                <p class="card-text small text-muted">Compact colour printer for desk use.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 4" data-desc="Full spec and details for Printer Model 4." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer5.jpg" class="card-img-top" alt="Printer 5" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 5</h5>
+                <p class="card-text small text-muted">Affordable A4 laser with low running costs.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 5" data-desc="Full spec and details for Printer Model 5." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer6.jpg" class="card-img-top" alt="Printer 6" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 6</h5>
+                <p class="card-text small text-muted">Robust monochrome device for heavy daily use.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 6" data-desc="Full spec and details for Printer Model 6." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer7.jpg" class="card-img-top" alt="Printer 7" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 7</h5>
+                <p class="card-text small text-muted">Multifunction device with scanning and fax.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 7" data-desc="Full spec and details for Printer Model 7." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer8.jpg" class="card-img-top" alt="Printer 8" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 8</h5>
+                <p class="card-text small text-muted">High-yield office printer with paper trays.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 8" data-desc="Full spec and details for Printer Model 8." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer9.jpg" class="card-img-top" alt="Printer 9" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 9</h5>
+                <p class="card-text small text-muted">Economical multifunction printer for SMBs.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 9" data-desc="Full spec and details for Printer Model 9." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer10.jpg" class="card-img-top" alt="Printer 10" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 10</h5>
+                <p class="card-text small text-muted">Fast colour printer for high-quality output.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 10" data-desc="Full spec and details for Printer Model 10." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer11.jpg" class="card-img-top" alt="Printer 11" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 11</h5>
+                <p class="card-text small text-muted">Durable printer for production and heavy use.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 11" data-desc="Full spec and details for Printer Model 11." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer12.jpg" class="card-img-top" alt="Printer 12" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 12</h5>
+                <p class="card-text small text-muted">Smart printer with cloud printing features.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 12" data-desc="Full spec and details for Printer Model 12." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer13.jpg" class="card-img-top" alt="Printer 13" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 13</h5>
+                <p class="card-text small text-muted">High-capacity tray and low maintenance design.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 13" data-desc="Full spec and details for Printer Model 13." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer14.jpg" class="card-img-top" alt="Printer 14" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 14</h5>
+                <p class="card-text small text-muted">Eco-friendly model with energy-saving features.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 14" data-desc="Full spec and details for Printer Model 14." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer15.jpg" class="card-img-top" alt="Printer 15" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 15</h5>
+                <p class="card-text small text-muted">High-speed duplex printing for busy offices.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 15" data-desc="Full spec and details for Printer Model 15." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img src="img/printer16.jpg" class="card-img-top" alt="Printer 16" onerror="this.src='img/printer-placeholder.png'">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Printer Model 16</h5>
+                <p class="card-text small text-muted">Production-grade printer with finishing options.</p>
+                <div class="mt-auto d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 16" data-desc="Full spec and details for Printer Model 16." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+                  <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Printers Catalog End -->
+
+    <script>
+    // attach read-more handlers for cards (sets modal content)
+    document.querySelectorAll('.read-more-btn').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        var title = btn.getAttribute('data-title') || 'Printer';
+        var desc = btn.getAttribute('data-desc') || 'Details coming soon.';
+        var label = document.getElementById('serviceModalLabel');
+        var body = document.getElementById('serviceModalBody');
+        if (label) label.textContent = title;
+        if (body) body.innerHTML = '<p>' + desc + '</p><p><strong>Features:</strong></p><ul><li>High-speed printing</li><li>Low running cost</li><li>Network & USB connectivity</li><li>Professional maintenance plans</li></ul>';
+      });
+    });
+    </script>
+
     <!-- Footer Start -->
     <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
