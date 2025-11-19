@@ -98,13 +98,8 @@
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Stay connected with our Fast and Reliable Internet</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">We offer Fiber, LTE & 5G CONNECTIONS.</h1>
-<<<<<<< HEAD
-                                    <a href="extra.html" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
-                                    <button onclick=extra.php></button>
-=======
                                     <a href="#" class="btn btn-primary py-3 px-5 explore-more-btn animated slideInRight" data-explore="fiber" data-bs-toggle="modal" data-bs-target="#exploreModal">Explore More</a>
 
->>>>>>> f34b27ee830ec73d690c00a73af1eec596c27803
                                     <div id="extra-content" style="display: none;"></div>
                                 </div>
                             </div>
@@ -435,28 +430,28 @@
             <div class="service-item text-center p-4 border h-100">
               <h5 class="mb-3">TELECOMS | VOICE | PBX</h5>
               <p>Scalable telephony platforms, SIP trunking and PBX solutions for any business size.</p>
-              <a href="#" class="btn btn-link read-more-btn" data-service="voip" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+              <a class="btn btn-light" href="voiceService.php">Read More</a>
             </div>
           </div>
           <div class="col-md-3">
             <div class="service-item text-center p-4 border h-100">
               <h5 class="mb-3">SECURITY</h5>
               <p>CCTV, access control and intercom systems to protect your premises and staff.</p>
-              <a href="#" class="btn btn-link read-more-btn" data-service="cctv" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+              <a class="btn btn-light" href="cctv.php">Read More</a>
             </div>
           </div>
           <div class="col-md-3">
             <div class="service-item text-center p-4 border h-100">
               <h5 class="mb-3">POWER SOLUTIONS</h5>
               <p>UPS and generator solutions to keep critical systems running during outages.</p>
-              <a href="#" class="btn btn-link read-more-btn" data-service="power" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+              <a class="btn btn-light" href="power.php">Read More</a>
             </div>
           </div>
           <div class="col-md-3">
             <div class="service-item text-center p-4 border h-100">
               <h5 class="mb-3">IT SERVICE & SUPPORT</h5>
               <p>Managed IT, support contracts and consulting to keep your IT reliable and secure.</p>
-              <a href="#" class="btn btn-link read-more-btn" data-service="it" data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
+              <a class="btn btn-light" href="officeIT.php">Read More</a>
             </div>
           </div>
         </div>
