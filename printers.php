@@ -115,7 +115,7 @@
         <div class="row g-4">
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 1" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/C251i.webp" class="card-img-top" alt="Printer 1" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C251i</h5>
                 <p class="card-text small text-muted">Fast monochrome printer for small offices.</p>
@@ -129,7 +129,7 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 2" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/C301i.webp" class="card-img-top" alt="Printer 2" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C301i</h5>
                 <p class="card-text small text-muted">Colour multifunction printer with duplex scanning.</p>
@@ -143,7 +143,7 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 3" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/C651i.webp" class="card-img-top" alt="Printer 3" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C651i</h5>
                 <p class="card-text small text-muted">High-volume A3 printer for production environments.</p>
@@ -157,7 +157,7 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 4" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/C751i.webp" class="card-img-top" alt="Printer 4" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C751i</h5>
                 <p class="card-text small text-muted">Compact colour printer for desk use.</p>
@@ -171,9 +171,9 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 5" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/B225i.webp" class="card-img-top" alt="Printer 5" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Konica Minolta 251i</h5>
+                <h5 class="card-title">Konica Minolta 225i</h5>
                 <p class="card-text small text-muted">Affordable A4 laser with low running costs.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 5" data-desc="Full spec and details for Printer Model 5." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
@@ -185,7 +185,7 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 6" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/B301i.webp" class="card-img-top" alt="Printer 6" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta 301i</h5>
                 <p class="card-text small text-muted">Robust monochrome device for heavy daily use.</p>
@@ -199,7 +199,7 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 7" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/B651i.webp" class="card-img-top" alt="Printer 7" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta 651i</h5>
                 <p class="card-text small text-muted">Multifunction device with scanning and fax.</p>
@@ -213,7 +213,7 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 8" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/C751i.webp" class="card-img-top" alt="Printer 8" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta 751i</h5>
                 <p class="card-text small text-muted">High-yield office printer with paper trays.</p>
@@ -227,7 +227,7 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 9" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/C3351i.webp" class="card-img-top" alt="Printer 9" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C3351i</h5>
                 <p class="card-text small text-muted">Economical multifunction printer for SMBs.</p>
@@ -241,9 +241,9 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 10" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/C4000i.webp" class="card-img-top" alt="Printer 10" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Konica Minolta C4751i</h5>
+                <h5 class="card-title">Konica Minolta C4000i</h5>
                 <p class="card-text small text-muted">Fast colour printer for high-quality output.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 10" data-desc="Full spec and details for Printer Model 10." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
@@ -255,9 +255,9 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 11" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/B4751i.webp" class="card-img-top" alt="Printer 11" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Konica Minolta 4701i</h5>
+                <h5 class="card-title">Konica Minolta 4751i</h5>
                 <p class="card-text small text-muted">Durable printer for production and heavy use.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 11" data-desc="Full spec and details for Printer Model 11." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
@@ -269,9 +269,9 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 12" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/C4051i.webp" class="card-img-top" alt="Printer 12" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Konica Minolta 4051i</h5>
+                <h5 class="card-title">Konica Minolta C4051i</h5>
                 <p class="card-text small text-muted">Smart printer with cloud printing features.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 12" data-desc="Full spec and details for Printer Model 12." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
@@ -283,7 +283,7 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 13" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/C4080.webp" class="card-img-top" alt="Printer 13" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta AccurioPress C4080</h5>
                 <p class="card-text small text-muted">High-capacity tray and low maintenance design.</p>
@@ -297,9 +297,9 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 14" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/C4070.webp" class="card-img-top" alt="Printer 14" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Konica Minolta AccurioPrint C4065</h5>
+                <h5 class="card-title">Konica Minolta AccurioPrint C4070</h5>
                 <p class="card-text small text-muted">Eco-friendly model with energy-saving features.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 14" data-desc="Full spec and details for Printer Model 14." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
@@ -311,7 +311,7 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 15" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/B7120.webp" class="card-img-top" alt="Printer 15" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta AccurioPress 7136 / 7136P / 7120</h5>
                 <p class="card-text small text-muted">High-speed duplex printing for busy offices.</p>
@@ -325,9 +325,9 @@
 
           <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card h-100 shadow-sm">
-              <img src="img/kmslide_printer.jpg" class="card-img-top" alt="Printer 16" onerror="this.src='img/printer-placeholder.png'">
+              <img src="img/printers/1100e.webp" class="card-img-top" alt="Printer 16" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Konica Minolta AccurioPress 6272P</h5>
+                <h5 class="card-title">Konica Minolta AccurioPress Pro 1100e</h5>
                 <p class="card-text small text-muted">Production-grade printer with finishing options.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 16" data-desc="Full spec and details for Printer Model 16." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
