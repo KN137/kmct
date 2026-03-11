@@ -80,6 +80,7 @@
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
             <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
+            <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#orderModal">Place Order</a>
             <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Quote</a>
         </div>
     </nav>
@@ -144,7 +145,8 @@
               <p class="mb-2"><strong>CONTACT US</strong></p>
               <p>Experience tailored security solutions from KM Connect Telecoms. Contact our authorised dealer team today.</p>
               <a href="#" class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Quote</a>
-              <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
+              <a href="#" class="btn btn-outline-primary me-2" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
+              <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Place Order</a>
             </div>
           </div>
 

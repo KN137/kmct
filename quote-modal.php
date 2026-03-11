@@ -44,27 +44,6 @@
             </select>
           </div>
           <div class="mb-3">
-            <label for="company_qoute" class="form-label">Company Name</label>
-            <input type="text" class="form-control" id="company_qoute" name="company_qoute" required>
-          </div>
-          <div class="mb-3">
-            <label for="address_qoute" class="form-label">address</label>
-            <input type="text" class="form-control" id="address_qoute" name="address_qoute" required>
-          </div>
-          <!-- Service type dropdown -->
-          <div class="mb-3">
-            <label for="service_type" class="form-label">Service Type</label>
-            <select class="form-control" id="service_type" name="service_type" required>
-              <option value="" disabled selected>Select service</option>
-              <option value="networking">networking</option>
-              <option value="printers">printers</option>
-              <option value="backup_power">backup power</option>
-              <option value="voip">VoIP</option>
-              <option value="internet_wifi">Internet &amp; WIFI</option>
-              <option value="voip">Other</option>
-            </select>
-          </div>
-          <div class="mb-3">
             <label for="message_qoute" class="form-label">Message (If other selected above please try to explan your required service)</label>
             <textarea class="form-control" id="message_qoute" name="message_qoute" rows="4" required></textarea>
           </div>
