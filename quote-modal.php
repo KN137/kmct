@@ -11,24 +11,24 @@
       <div class="modal-body">
         <form id="quoteForm" action="sendquote.php" method="POST">
           <div class="mb-3">
-            <label for="name_qoute" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name_qoute" name="name_qoute" required>
+            <label for="name_quote" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name_quote" name="name_quote" required>
           </div>
           <div class="mb-3">
             <label for="email_qoute" class="form-label">Your Email</label>
             <input type="email" class="form-control" id="email_qoute" name="email_qoute" required>
           </div>
           <div class="mb-3">
-            <label for="phone" class="form-label">Phone number</label>
-            <input type="text" class="form-control" id="phone" name="phone" required>
+            <label for="phone_quote" class="form-label">Phone number</label>
+            <input type="text" class="form-control" id="phone_quote" name="phone_quote" required>
           </div>
           <div class="mb-3">
-            <label for="company" class="form-label">Company Name</label>
-            <input type="text" class="form-control" id="company" name="company" required>
+            <label for="company_quote" class="form-label">Company Name</label>
+            <input type="text" class="form-control" id="company_quote" name="company_quote" required>
           </div>
           <div class="mb-3">
-            <label for="address" class="form-label">address</label>
-            <input type="text" class="form-control" id="address" name="address" required>
+            <label for="address_quote" class="form-label">address</label>
+            <input type="text" class="form-control" id="address_quote" name="address_quote" required>
           </div>
           <!-- Service type dropdown -->
           <div class="mb-3">
@@ -44,8 +44,8 @@
             </select>
           </div>
           <div class="mb-3">
-            <label for="message_qoute" class="form-label">Message (If other selected above please try to explan your required service)</label>
-            <textarea class="form-control" id="message_qoute" name="message_qoute" rows="4" required></textarea>
+            <label for="message_quote" class="form-label">Message (If other selected above please try to explan your required service)</label>
+            <textarea class="form-control" id="message_quote" name="message_quote" rows="4" required></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
@@ -76,9 +76,11 @@ document.getElementById('quoteForm').addEventListener('submit', function(e) {
     .then(response => response.text())
     .then(data => {
         document.getElementById('quoteLoading').style.display = 'none';
-        document.getElementById('quotePopupMessage').textContent = 'Message sent!\n Our team will be in touch soon please check your emails.';
+        document.getElementById('quotePopupMessage').textContent = data || 'Message sent! Our team will be in touch soon please check your emails.';
         document.getElementById('quotePopupMessage').style.display = 'block';
-        form.reset();
+        if (data && data.toLowerCase().includes('message sent')) {
+            form.reset();
+        }
     })
     .catch(error => {
         document.getElementById('quoteLoading').style.display = 'none';

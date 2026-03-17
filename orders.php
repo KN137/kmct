@@ -21,15 +21,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->isSMTP();
             $mail->Host = 'smtp.kmtelecomsa.co.za';
             $mail->SMTPAuth = true;
-            $mail->Username = 'support@kmtelecomsa.co.za';
-            $mail->Password = 'D387V0171R7ib3';
+            $mail->Username = 'info@kmtelecomsa.co.za';
+            $mail->Password = 'KMCT3l3c0m@2026';
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
 
             // Email content
-            $mail->setFrom('support@kmtelecomsa.co.za', 'KMCT Order Request');
-            $mail->addAddress('support@kmtelecomsa.co.za');
-            $mail->addAddress('info@kmtelecomsa.co.za');
+            $mail->setFrom('info@kmtelecomsa.co.za', 'KMCT Order Request');
+            $mail->addAddress('orders@kmtelecomsa.co.za');
             $mail->addReplyTo($email);
             $mail->Subject = 'Order Request from : ' . $company;
             $mail->Body = "Name: $name\nEmail: $email\nPhone no: $phone\nAddress: $address\nCompany: $company\n\nOrder Details:\n$orders";

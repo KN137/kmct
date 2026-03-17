@@ -59,9 +59,11 @@ document.getElementById('callForm').addEventListener('submit', function(e) {
     .then(response => response.text())
     .then(data => {
         document.getElementById('callLoading').style.display = 'none';
-        document.getElementById('callPopupMessage').textContent = 'Message sent!\n Our team will be in touch soon please check your emails.';
+        document.getElementById('callPopupMessage').textContent = data || 'Message sent! Our team will be in touch soon please check your emails.';
         document.getElementById('callPopupMessage').style.display = 'block';
-        form.reset();
+        if (data && data.toLowerCase().includes('message sent')) {
+            form.reset();
+        }
     })
     .catch(error => {
         document.getElementById('callLoading').style.display = 'none';

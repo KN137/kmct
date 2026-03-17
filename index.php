@@ -3,13 +3,28 @@
 
 <head>
     <meta charset="utf-8">
-    <title>KMCT</title>
+    <title>KMCT - KM Connect Telecom | Fibre, VoIP & Business Internet in South Africa</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta name="keywords" content="KMCT, fibre internet, VoIP services, business connectivity, internet service provider, South Africa, CCTV, cloud services">
+    <meta name="description" content="KMCT - KM Connect Telecom is a South African telecommunications company providing fibre internet, VoIP & business connectivity solutions.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="KMCT - KM Connect Telecom | Fibre, VoIP & Business Internet">
+    <meta property="og:description" content="KMCT - KM Connect Telecom is a South African telecommunications company providing fibre internet, VoIP & business connectivity solutions.">
+    <meta property="og:image" content="img/kmslide_1.jpg">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KMCT - KM Connect Telecom | Fibre, VoIP & Business Internet">
+    <meta name="twitter:description" content="KMCT - South African telecommunications company providing fibre internet, VoIP & business connectivity solutions.">
+    <meta name="twitter:image" content="img/kmslide_1.jpg">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Fallback Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231E40AF' width='100' height='100'/><text x='50' y='65' font-size='50' font-weight='bold' text-anchor='middle' fill='white' font-family='Arial'>KM</text></svg>">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -292,7 +307,7 @@
               <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                 <i class="fa fa-check text-white"></i>
               </div>
-              <div class="ms-4">
+              <div class="ms-4"> 
                 <h4>Innovative</h4>
                 <span>We embrace new technologies and creative problem-solving to continuously improve our services and offerings.</span>
               </div>

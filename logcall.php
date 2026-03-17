@@ -20,14 +20,14 @@ if  ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->isSMTP();
             $mail->Host = 'smtp.kmtelecomsa.co.za';
             $mail->SMTPAuth = true;
-            $mail->Username = 'support@kmtelecomsa.co.za';
-            $mail->Password = 'D387V0171R7ib3';
-            $mail->SMTPSecure = 'tls';
-            $mail->Port = 587;
+            $mail->Username = 'info@kmtelecomsa.co.za';
+            $mail->Password = 'KMCT3l3c0m@2026';
+            $mail->SMTPSecure = 'ssl';
+            $mail->Port = 465;
 
             // Email content
-            $mail->setFrom('support@kmtelecomsa.co.za', $company .' logged a call');
-            $mail->addAddress('info@kmtelecomsa.co.za');
+            $mail->setFrom('info@kmtelecomsa.co.za', $company .' logged a call');
+            $mail->addAddress('khotso@kmtelecomsa.co.za');
             $mail->addReplyTo($email);
             $mail->Subject = 'The client is experiencing issues with: ' . $subject;
             $mail->Body = "Call logged by: $name\nEmail address: $email\n\nMessage:\n$message";
