@@ -170,7 +170,7 @@
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h5 class="mb-1">WHY KM CONNECT TELECOMS AS YOUR SERVICE PROVIDER?</h5>
                 <p>
-                    Our highly trained staff know how to work with you to provide you with the best possible equipment and solutions. From Telephony and IT equipment for your office, to comprehensive software solutions - KM Connect Telecoms provides the equipment and service that every business in South Africa can benefit from. As a leading business in the world of corporate office solutions, KM Connect Telecoms offers a complete spectrum of internationally recognised Telephony solutions and Information Technology brands, including rentals, maintenance and repairs. Our highly trained staff know how to work with you to provide you with the best possible equipment and solutions. From Telephony and IT equipment for your office to comprehensive software solutions – KM Connect Telecoms delivers the equipment and service that every business in South Africa can benefit from
+                    Our highly trained staff know how to work with you to provide you with the best possible equipment and solutions. From Telephony and IT equipment for your office, to comprehensive software solutions - KM Connect Telecoms provides the equipment and service that every business in South Africa can benefit from. As a leading business in the world of corporate office solutions, KM Connect Telecoms offers a complete spectrum of internationally recognised Telephony solutions and Information Technology brands, including rentals, maintenance and repairs. 
                 </p>
             </div>
             
