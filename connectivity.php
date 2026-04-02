@@ -104,7 +104,7 @@
       <div class="container">
         <div class="text-center mb-4">
           <h2 class="display-5">KM Connect Telecoms</h2>
-          <h5 class="text-primary mb-3">FIBER, 5G, LTE, MICROWAVE & NETWORK INFRASTRUCTURE</h5>
+          <h5 class="text-primary mb-3">FIBRE, 5G, LTE, MICROWAVE & NETWORK INFRASTRUCTURE</h5>
           <p class="lead mx-auto" style="max-width:900px;">
             We deliver resilient, high‑performance internet and networking solutions tailored for businesses of every size.
             From fibre and microwave links to 5G/LTE wireless connectivity and full site networking infrastructure, KM Connect Telecoms

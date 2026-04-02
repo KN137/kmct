@@ -119,7 +119,7 @@
               <img src="img/printers/C251i.webp" class="card-img-top" alt="Printer 1" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C251i</h5>
-                <p class="card-text small text-muted">Fast monochrome printer for small offices.</p>
+                <p class="card-text small text-muted">Fast Colour printer for small offices. Unlock vibrant marketing with stunning color performance.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 1" data-desc="Full spec and details for Printer Model 1." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -133,7 +133,7 @@
               <img src="img/printers/C301i.webp" class="card-img-top" alt="Printer 2" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C301i</h5>
-                <p class="card-text small text-muted">Colour multifunction printer with duplex scanning.</p>
+                <p class="card-text small text-muted">Colour multifunction printer with duplex scanning. Create compelling visuals with powerful color and rapid printing.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 2" data-desc="Full spec and details for Printer Model 2." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -147,7 +147,7 @@
               <img src="img/printers/C651i.webp" class="card-img-top" alt="Printer 3" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C651i</h5>
-                <p class="card-text small text-muted">High-volume A3 printer for production environments.</p>
+                <p class="card-text small text-muted">High-volume A3 printer for production environments. Achieve professional finishes with premium color accuracy.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 3" data-desc="Full spec and details for Printer Model 3." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -161,7 +161,7 @@
               <img src="img/printers/C751i.webp" class="card-img-top" alt="Printer 4" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C751i</h5>
-                <p class="card-text small text-muted">Compact colour printer for desk use.</p>
+                <p class="card-text small text-muted">Compact colour printer for Office use. Maximize impact with brilliant color and optimized print speed.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 4" data-desc="Full spec and details for Printer Model 4." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -175,7 +175,7 @@
               <img src="img/printers/B225i.webp" class="card-img-top" alt="Printer 5" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta 225i</h5>
-                <p class="card-text small text-muted">Affordable A4 laser with low running costs.</p>
+                <p class="card-text small text-muted">Affordable A4 laser with low running costs. Streamline everyday printing with cost-effective performance.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 5" data-desc="Full spec and details for Printer Model 5." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -189,7 +189,7 @@
               <img src="img/printers/B301i.webp" class="card-img-top" alt="Printer 6" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta 301i</h5>
-                <p class="card-text small text-muted">Robust monochrome device for heavy daily use.</p>
+                <p class="card-text small text-muted">Robust monochrome device for heavy daily use. Boost productivity with high-volume printing and quick results.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 6" data-desc="Full spec and details for Printer Model 6." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -203,7 +203,7 @@
               <img src="img/printers/B651i.webp" class="card-img-top" alt="Printer 7" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta 651i</h5>
-                <p class="card-text small text-muted">Multifunction device with scanning and fax.</p>
+                <p class="card-text small text-muted">Multifunction device with scanning and fax. Ensure consistent, professional-grade documents with reliable performance.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 7" data-desc="Full spec and details for Printer Model 7." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -217,7 +217,7 @@
               <img src="img/printers/C751i.webp" class="card-img-top" alt="Printer 8" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta 751i</h5>
-                <p class="card-text small text-muted">High-yield office printer with paper trays.</p>
+                <p class="card-text small text-muted">High-yield office printer with paper trays. Optimize production costs with efficient, high-volume color.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 8" data-desc="Full spec and details for Printer Model 8." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -231,7 +231,7 @@
               <img src="img/printers/C3351i.webp" class="card-img-top" alt="Printer 9" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C3351i</h5>
-                <p class="card-text small text-muted">Economical multifunction printer for SMBs.</p>
+                <p class="card-text small text-muted">Economical multifunction printer for SMBs. Develop impactful marketing materials with vibrant, rich color.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 9" data-desc="Full spec and details for Printer Model 9." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -245,7 +245,7 @@
               <img src="img/printers/C4000i.webp" class="card-img-top" alt="Printer 10" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C4000i</h5>
-                <p class="card-text small text-muted">Fast colour printer for high-quality output.</p>
+                <p class="card-text small text-muted">Fast A4 colour printer for high-quality output. Deliver versatile color solutions for a wide range of applications.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 10" data-desc="Full spec and details for Printer Model 10." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -259,7 +259,7 @@
               <img src="img/printers/B4751i.webp" class="card-img-top" alt="Printer 11" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta 4751i</h5>
-                <p class="card-text small text-muted">Durable printer for production and heavy use.</p>
+                <p class="card-text small text-muted">Durable printer for Office and daily use. </p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 11" data-desc="Full spec and details for Printer Model 11." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -273,7 +273,7 @@
               <img src="img/printers/C4051i.webp" class="card-img-top" alt="Printer 12" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta C4051i</h5>
-                <p class="card-text small text-muted">Smart printer with cloud printing features.</p>
+                <p class="card-text small text-muted">Smart printer with cloud printing features. Get professional results with high-quality color and precision printing.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 12" data-desc="Full spec and details for Printer Model 12." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -287,7 +287,7 @@
               <img src="img/printers/C4080.webp" class="card-img-top" alt="Printer 13" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta AccurioPress C4080</h5>
-                <p class="card-text small text-muted">High-capacity tray and low maintenance design.</p>
+                <p class="card-text small text-muted">High-capacity tray and low maintenance design. Drive high-volume marketing with powerful color and automated workflows.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 13" data-desc="Full spec and details for Printer Model 13." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -301,7 +301,7 @@
               <img src="img/printers/C4070.webp" class="card-img-top" alt="Printer 14" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta AccurioPrint C4070</h5>
-                <p class="card-text small text-muted">Eco-friendly model with energy-saving features.</p>
+                <p class="card-text small text-muted">Eco-friendly model with energy-saving features. Achieve efficient marketing campaigns with production speed and quality.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 14" data-desc="Full spec and details for Printer Model 14." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -315,7 +315,7 @@
               <img src="img/printers/B7120.webp" class="card-img-top" alt="Printer 15" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta AccurioPress 7136 / 7136P / 7120</h5>
-                <p class="card-text small text-muted">High-speed duplex printing for busy offices.</p>
+                <p class="card-text small text-muted">High-speed duplex printing for busy offices. Elevate professional printing with production power and intelligent features.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 15" data-desc="Full spec and details for Printer Model 15." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>
@@ -329,7 +329,7 @@
               <img src="img/printers/1100e.webp" class="card-img-top" alt="Printer 16" onerror="this.src='img/printer-placeholder.png'">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Konica Minolta AccurioPress Pro 1100e</h5>
-                <p class="card-text small text-muted">Production-grade printer with finishing options.</p>
+                <p class="card-text small text-muted">Production-grade printer with finishing options. reate high-impact graphics with professional color performance and streamlined operations.</p>
                 <div class="mt-auto d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-sm btn-outline-primary read-more-btn" data-title="Printer Model 16" data-desc="Full spec and details for Printer Model 16." data-bs-toggle="modal" data-bs-target="#serviceModal">Read More</a>
                   <a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Request Quote</a>

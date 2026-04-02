@@ -113,7 +113,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Stay connected with our Fast and Reliable Internet</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">We offer Fiber, LTE & 5G CONNECTIONS.</h1>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">We offer Fibre, LTE & 5G CONNECTIONS.</h1>
                                     <a href="#" class="btn btn-primary py-3 px-5 explore-more-btn animated slideInRight" data-explore="fiber" data-bs-toggle="modal" data-bs-target="#exploreModal">Explore More</a>
 
                                     <div id="extra-content" style="display: none;"></div>
@@ -143,8 +143,8 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Our offices and production Priters</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Tired of paper JAM? Try US.</h1>
+                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Our offices and production Printers</p>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Tired of paper JAMS? Try US.</h1>
                                     <a href="#" class="btn btn-primary py-3 px-5 explore-more-btn animated slideInRight" data-explore="printer" data-bs-toggle="modal" data-bs-target="#exploreModal">Explore More</a>
                                 </div>
                             </div>
