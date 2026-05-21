@@ -42,13 +42,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.kmtelecomsa.co.za';
         $mail->SMTPAuth = true;
-        $mail->Username = 'info@kmtelecomsa.co.za';
-        $mail->Password = 'KMCT3l3c0m@2026';
+        $mail->Username = 'khotsokmct@gmail.com';
+        $mail->Password = 'KMCT3l3c0m@';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
         // Email content
-        $mail->setFrom('info@kmtelecomsa.co.za', $name . ' is requesting a Quote');
+        $mail->setFrom('khotsokmct@gmail.com', $name . ' is requesting a Quote');
         $mail->addAddress('sales1@kmtelecomsa.co.za');
         $mail->addReplyTo($email);
         $mail->Subject = 'Quote Request from : ' . $company;

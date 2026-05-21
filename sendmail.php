@@ -20,13 +20,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->isSMTP();
             $mail->Host = 'smtp.kmtelecomsa.co.za';
             $mail->SMTPAuth = true;
-            $mail->Username = 'info@kmtelecomsa.co.za';
-            $mail->Password = 'KMCT3l3c0m@2026';
+            $mail->Username = 'khotsokmct@gmail.com';
+            $mail->Password = 'KMCT3l3c0m@';
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
 
             // Email content
-            $mail->setFrom('info@kmtelecomsa.co.za', $name . ' - KMCT Website');
+            $mail->setFrom('khotsokmct@gmail.com', $name . ' - KMCT Website');
             $mail->addAddress('support@kmtelecomsa.co.za');
             $mail->addReplyTo($email); // User's email for reply
             $mail->Subject = $subject;
