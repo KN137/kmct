@@ -64,10 +64,13 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-        <a href="index.html" class="navbar-brand ps-5 me-0">
-            <h1 class="text-white m-0">KM Connect Telecoms</h1>
+        <a href="index.php" class="navbar-brand me-0">
+            <div>
+                <h1 class="text-white m-0">KM Connect Telecoms</h1>
+                <small class="text-white opacity-75">Fibre, VoIP & Business Internet</small>
+            </div>
         </a>
-        <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -77,9 +80,11 @@
                 <a href="service.php" class="nav-item nav-link active">Services</a>
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="#" class="btn btn-primary px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
-            <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#orderModal">Place Order</a>
-            <a href="#" class="btn btn-primary px-3 d-none d-lg-block ms-2" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Quote</a>
+            <div class="navbar-cta d-flex flex-column flex-lg-row align-items-stretch align-items-lg-center gap-2 mt-3 mt-lg-0">
+                <a href="#" class="btn btn-primary btn-cta" data-bs-toggle="modal" data-bs-target="#callModal">Log A Call</a>
+                <a href="#" class="btn btn-outline-primary btn-cta" data-bs-toggle="modal" data-bs-target="#orderModal">Place Order</a>
+                <a href="#" class="btn btn-primary btn-cta" data-bs-toggle="modal" data-bs-target="#quoteModal">Request A Quote</a>
+            </div>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -319,6 +324,12 @@ document.querySelectorAll('.read-more-btn').forEach(function(btn) {
   });
 });
 </script>
+  <!-- Mobile Action Bar (visible on small screens) -->
+  <div class="mobile-action-bar d-block d-lg-none">
+    <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#callModal"><i class="fa fa-phone"></i> Log A Call</a>
+    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal"><i class="fa fa-shopping-cart"></i> Place Order</a>
+    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal"><i class="fa fa-file-alt"></i> Request Quote</a>
+  </div>
 </body>
 
 </html>
